@@ -1,3 +1,3 @@
-Minimal base ruleset for Unciv, so people can start somewhere and gradually expand
+Divine Right
 
-Based on https://github.com/AdelleStuuu/Adelle-Corp
+
