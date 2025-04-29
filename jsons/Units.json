@@ -1,18 +1,73 @@
 [
-    {
-        "name": "Settler",
-        "unitType": "Civilian",
-        "movement": 2,
-        "uniques": ["Founds a new city <by consuming this unit>","Requires at least [2] population"]
-    },
-    {
-		"name": "Rifleman",
-		"unitType": "Infantry",
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Militia",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 7,
+		"cost": 35,
+        "obsoleteTech": "Smithing",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "The men of the village wielding pitchforks and clubs."}
+		    ]
+	},
+	{
+		"name": "Scout",
+		"unitType": "Scout",
 		"movement": 2,
 		"strength": 5,
-        "range": 2,
+		"cost": 25,
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+    {
+		"name": "Bowmen",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
-		"attackSound": "shot"
+		"requiredTech": "Hunting",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 50,
+		"requiredTech": "Metal Working",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Smithing",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	}
 ]
