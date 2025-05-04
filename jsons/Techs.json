@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Age of Discovery",
+		"era": "Tribal Era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -16,34 +16,40 @@
 	},
 	{
 		"columnNumber": 1,
-		"era": "Age of Discovery",
+		"era": "Tribal Era",
 		"techCost": 35,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
 			{
 				"name": "Agriculture",
-				"row": 2,
+				"row": 1,
 				"prerequisites": ["Craft"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster"
 			},
 			{
-				"name": "Mysticism",
-				"row": 4,
+				"name": "Pottery",
+				"row": 2,
 				"prerequisites": ["Craft"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
+				"name": "Mysticism",
+				"row": 5,
+				"prerequisites": ["Craft"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The true mystic is always both humble and compassionate, for she knows that she does not know.' - Richard Rohr"
+			},
+			{
 				"name": "Animal Husbandry",
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["Craft"],
 				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
 			},
 			{
 				"name": "Mining",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Craft"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			}
@@ -51,52 +57,66 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Age of Discovery",
+		"era": "Tribal Era",
 		"techCost": 35,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Metal Working",
-				"row": 1,
-				"prerequisites": ["Mining"],
-				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+				"name": "Sailing",
+				"row": 12,
+				"prerequisites": ["Pottery"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+			{
+				"name": "Fermentation",
+				"row": 3,
+				"prerequisites": ["Pottery"],
+				"quote": "Fermentation is more than just a process; it's a cultural heritage passed down through generations."
+			},		
+			{
+				"name": "Lore",
+				"row": 4,
+				"prerequisites": ["Mysticism","Pottery"],
+				"quote": "The magic of the world often resides within its forgotten lore."
+			},			
+			{
+				"name": "Shamanism",
+				"row": 4,
+				"prerequisites": ["Mysticism","Animal Husbandry"],
+				"quote": "'Shamanism is about reclaiming our innate power and connection to the sacred.' - Itzhak Beery"
+			},			
+			{
+				"name": "Hunting",
+				"row": 6,
+				"prerequisites": ["Animal Husbandry"],
+				"quote": "'His seized his weapon, which the panther and lion fells in the night time cruelly. He captured the wild mountain goats. The panther he conquered.' - The Epic of Gilgamesh"
+			},
+			{
+				"name": "The Wheel",
+				"row": 8,
+				"prerequisites": ["Animal Husbandry", "Mining"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "From the potter's wheel to the chariot wheel, this simple invention has shaped civilizations."
 			},		
 			{
 				"name": "Masonry",
-				"row": 3,
+				"row": 9,
 				"prerequisites": ["Mining"],
-				"quote": ""
-			},			
-			{
-				"name": "Archery",
-				"row": 4,
-				"prerequisites": ["Hunting"],
-				"quote": ""
-			},			
-			{
-				"name": "Animal Husbandry",
-				"row": 6,
-				"prerequisites": ["Hunting"],
-				"quote": ""
+				"quote": "The weight of history rests upon the shoulders of well-laid stones."
 			},
 			{
-				"name": "Shamanism",
-				"row": 7,
-				"prerequisites": ["Mythology","Hunting"],
-				"quote": ""
-			},
-			{
-				"name": "Pottery",
-				"row": 8,
-				"prerequisites": ["Agriculture"],
-				"quote": ""
+				"name": "Metal Working",
+				"row": 10,
+				"prerequisites": ["Mining"],
+				"quote": "The skilled hand of the metalworker coaxes forth the hidden potential within the metal."
 			}
 		]
 	},
 	{
 		"columnNumber": 6,
-		"era": "Age of Discovery",
+		"era": "Tribal Era",
 		"techCost": 35,
 		"buildingCost": 60,
 		"wonderCost": 185,
@@ -130,7 +150,7 @@
 
 	{
 		"columnNumber": 9,
-		"era": "Age of Discovery",
+		"era": "Tribal Era",
 		"techCost": 35,
 		"buildingCost": 60,
 		"wonderCost": 185,
@@ -163,7 +183,7 @@
 	},
 	{
 		"columnNumber": 10,
-		"era": "Age of Discovery",
+		"era": "Tribal Era",
 		"techCost": 35,
 		"buildingCost": 60,
 		"wonderCost": 185,
@@ -204,7 +224,7 @@
 	},
 	{
 		"columnNumber": 11,
-		"era": "Age of Discovery",
+		"era": "Tribal Era",
 		"techCost": 35,
 		"buildingCost": 60,
 		"wonderCost": 185,
@@ -237,7 +257,7 @@
 	},
 	{
 		"columnNumber": 12,
-		"era": "Age of Discovery",
+		"era": "Tribal Era",
 		"techCost": 35,
 		"buildingCost": 60,
 		"wonderCost": 185,
@@ -270,7 +290,7 @@
 	},
 	{
 		"columnNumber": 15,
-		"era": "Age of Discovery",
+		"era": "Tribal Era",
 		"techCost": 35,
 		"buildingCost": 60,
 		"wonderCost": 185,
