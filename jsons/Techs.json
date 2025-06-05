@@ -7,10 +7,22 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Craft",
-				"row": 5,
+				"name": "Agriculture",
+				"row": 3,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": ["Starting tech"]
+			},	
+			{
+				"name": "Craftsmanship",
+				"row": 7,
 				"quote": "Technology begins with with the making of the simplest things.",
 				"uniques": ["Starting tech"]
+			},	
+			{
+				"name": "Technomancy",
+				"row": 10,
+				"quote": "Place holder tech to place things in while figuing out where  in the tree they should reside.",
+				"uniques": ["Will not be displayed in Civilopedia", "[Unavailable]" ]
 			}
 		]
 	},
@@ -22,87 +34,60 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Agriculture",
-				"row": 1,
-				"prerequisites": ["Craft"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster"
-			},
-			{
 				"name": "Pottery",
-				"row": 2,
+				"row": 1,
 				"prerequisites": ["Craft"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
-				"name": "Mysticism",
-				"row": 5,
-				"prerequisites": ["Craft"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'The true mystic is always both humble and compassionate, for she knows that she does not know.' - Richard Rohr"
-			},
-			{
 				"name": "Animal Husbandry",
-				"row": 7,
+				"row": 4,
 				"prerequisites": ["Craft"],
 				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
 			},
 			{
 				"name": "Mining",
-				"row": 9,
+				"row": 7,
 				"prerequisites": ["Craft"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			}
 		]
 	},
 	{
-		"columnNumber": 4,
+		"columnNumber": 2,
 		"era": "Tribal Era",
 		"techCost": 35,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Sailing",
-				"row": 12,
-				"prerequisites": ["Pottery"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
-			},
-			{
 				"name": "Fermentation",
-				"row": 3,
+				"row": 1,
 				"prerequisites": ["Pottery"],
 				"quote": "Fermentation is more than just a process; it's a cultural heritage passed down through generations."
 			},		
 			{
-				"name": "Lore",
-				"row": 4,
-				"prerequisites": ["Mysticism","Pottery"],
+				"name": "Writing",
+				"row": 2,
+				"prerequisites": ["Pottery"],
 				"quote": "The magic of the world often resides within its forgotten lore."
-			},			
-			{
-				"name": "Shamanism",
-				"row": 4,
-				"prerequisites": ["Mysticism","Animal Husbandry"],
-				"quote": "'Shamanism is about reclaiming our innate power and connection to the sacred.' - Itzhak Beery"
-			},			
+			},				
 			{
 				"name": "Hunting",
-				"row": 6,
+				"row": 4,
 				"prerequisites": ["Animal Husbandry"],
 				"quote": "'His seized his weapon, which the panther and lion fells in the night time cruelly. He captured the wild mountain goats. The panther he conquered.' - The Epic of Gilgamesh"
 			},
 			{
 				"name": "The Wheel",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Animal Husbandry", "Mining"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "From the potter's wheel to the chariot wheel, this simple invention has shaped civilizations."
-			},		
+			},	
 			{
 				"name": "Masonry",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Mining"],
 				"quote": "The weight of history rests upon the shoulders of well-laid stones."
 			},
@@ -115,217 +100,42 @@
 		]
 	},
 	{
-		"columnNumber": 6,
-		"era": "Tribal Era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"columnNumber": 3,
+		"era": "Discovery era",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Elvish",
-				"row": 10,
-				"prerequisites": ["Linguistics"],
-				"quote": "The ancient language of the Elves has it roots in the language in Draconic. "
-			},
-			{
-				"name": "Ritual",
+				"name": "Optics",
 				"row": 1,
-				"prerequisites": ["Shamanism","Tradition"],
-				"quote": ""
+				"prerequisites": ["Sailing", "Metal Working"],
+				"quote": "'It is a most beautiful instrument. There is no doubt that the telescope will reveal countless things.' - Johannes Kepler"
 			},
 			{
-				"name": "Divination",
+				"name": "Archaeology",
 				"row": 3,
-				"prerequisites": ["Mythology","Tradition"],
-				"quote": ""
-			},			
-			{
-				"name": "Mathematics",
-				"row": 5,
-				"prerequisites": ["Mythology","Astrology"],
-				"quote": ""
-			}			
-		]
-	},
-
-	{
-		"columnNumber": 9,
-		"era": "Tribal Era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
-		"techs": [
-			{
-				"name": "Draconic",
-				"row": 1,
-				"prerequisites": ["Runology"],
-				"quote": "The ancient language of the Dragons is also the language of the rune stones and of magic itself."
-			},
-			{
-				"name": "Divine Covenant",
-				"row": 4,
-				"prerequisites": ["Pottery","Divination"],
-				"quote": ""
-			},
-			{
-				"name": "Fermentation",
-				"row": 6,
-				"prerequisites": ["Pottery"],
-				"quote": ""
-			},
-			{
-				"name": "Sailing",
-				"row": 8,
-				"prerequisites": ["Pottery"],
-				"quote": ""
-			}
-		]
-	},
-	{
-		"columnNumber": 10,
-		"era": "Tribal Era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
-		"techs": [
-
-			{
-				"name": "Smithing",
-				"row": 2,
-				"prerequisites": ["Metal Working", "Animal Husbandry"],
-				"quote": ""
-			},
-			{
-				"name": "Construction",
-				"row": 4,
-				"prerequisites": ["Masonry","Animal Husbandry"],
-				"quote": ""
-			},
-			{
-				"name": "Military Service",
-				"row": 6,
-				"prerequisites": ["Metal Working","Archery"],
-				"quote": ""
-			},
-			{
-				"name": "Natural Lore",
-				"row": 9,
-				"prerequisites": ["Animal Husbandry","Astrology"],
-				"quote": ""
-			},			
-			{
-				"name": "Beast Handling",
-				"row": 10,
-				"prerequisites": ["Shamanism","Animal Husbandry"],
-				"quote": ""
-			}
-
-		]
-	},
-	{
-		"columnNumber": 11,
-		"era": "Tribal Era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
-		"techs": [
-			{
-				"name": "The Weave",
-				"row": 1,
-				"prerequisites": ["Pottery"],
-				"quote": ""
-			},
-			{
-				"name": "Religion",
-				"row": 2,
-				"prerequisites": ["Tradition"],
-				"quote": ""
-			},
-			{
-				"name": "Stringed Instruments",
-				"row": 4,
-				"prerequisites": ["Tradition"],
-				"quote": ""
-			},
-			{
-				"name": "Astrolabe",
-				"row": 6,
-				"prerequisites": ["Tradition"],
-				"quote": ""
-			}
-		]
-	},
-	{
-		"columnNumber": 12,
-		"era": "Tribal Era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
-		"techs": [
-			{
-				"name": "Engineering",
-				"row": 1,
-				"prerequisites": ["Construction", "Mathematics"],
-				"quote": ""
-			},
-			{
-				"name": "Horseback Riding",
-				"row": 2,
-				"prerequisites": ["Smithing","Military Service"],
-				"quote": ""
-			},
-			{
-				"name": "Alchemy",
-				"row": 4,
-				"prerequisites": ["Natural Lore", "Metal Working"],
-				"quote": ""
-			},
-			{
-				"name": "Sylvan",
-				"row": 6,
-				"prerequisites": ["Linguistics","Natural Lore"],
-				"quote": ""
-			}
-		]
-	},
-	{
-		"columnNumber": 15,
-		"era": "Tribal Era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
-		"techs": [
-			{
-				"name": "Fine Steel",
-				"row": 1,
-				"prerequisites": ["Military Service", "Smithing"],
-				"quote": ""
-			},
-			{
-				"name": "Gem Cutting",
-				"row": 3,
-				"prerequisites": ["Trade", "Smithing"],
-				"quote": ""
-			},
-			{
-				"name": "Bardic Tales",
-				"row": 5,
-				"prerequisites": ["Stringed Instruments", "Trade"],
+				"prerequisites": ["Writing","Mining"],
 				"quote": ""
 			},
 			{
 				"name": "Trade",
-				"row": 7,
-				"prerequisites": ["Mathematics", "Astrolabe"],
+				"row": 5,
+				"prerequisites": ["Hunting","Wheel"],
+				"quote": ""
+			},						
+			{
+				"name": "Mathematics",
+				"row": 6,
+				"prerequisites": ["Wheel"],
 				"quote": ""
 			},
 			{
-				"name": "Necromancy",
-				"row": 9,
-				"prerequisites": ["The Weave"],
+				"name": "Construction",
+				"row": 7,
+				"prerequisites": ["Masonry","Wheel"],
 				"quote": ""
-			}
-
+			}	
 		]
 	}
 
