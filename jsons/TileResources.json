@@ -67,6 +67,24 @@
 					"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"]
 	},
 	{
+		"name": "Ancient Ruins",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
+		"science": 1,
+		"improvement": "Dig site",
+		"improvementStats": {"science": 1,"culture": 1},
+		"uniques": ["Generated on every [14] tiles <in [{Featureless} {Desert}] tiles>",
+					"Generated on every [21] tiles <in [{Tundra} {Forest}] tiles>",
+					"Generated on every [21] tiles <in [{Tundra} {Forest}] tiles>",
+					"Generated on every [30] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [35] tiles <in [{Featureless} {Snow}] tiles>",	
+					"Generated on every [20] tiles <in [{Featureless} {Marsh}] tiles>",
+					"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
+					"Generated on every [24] tiles <in [Forest] tiles> <in [Hill] Regions>"]
+	},
+	{
 		"name": "Fish",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
@@ -91,9 +109,11 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Channeling",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
-		"production": 1,
+		"science": 1,
 		"improvement": "Aether Well",
-		"uniques": ["Guaranteed with Strategic Balance resource option",
+		"improvementStats": {"production": 1, "science":1},
+		"uniques": ["Cannot be traded",
+					"Guaranteed with Strategic Balance resource option",
 					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
 					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
 					"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
@@ -140,7 +160,7 @@
 					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
 					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
 					"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
-					"Generated with weight [26] <in [Hill] tiles>",
+					"Generated with weight [30] <in [Hill] tiles>",
 					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
 					"Minor deposits generated with weight [20] <in [Forest] tiles>",
@@ -154,41 +174,48 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
-		"name": "Coal",
+		"name": "Mead",
 		"resourceType": "Strategic",
-		"revealedBy": "Industrialization",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh"],
-		"production": 1,
-		"improvement": "Mine",
-		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
-					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Jungle] tiles>",
-					"Minor deposits generated with weight [10] <in [Forest] tiles>",
-					"Minor deposits generated with weight [20] <in [{Grassland} {Hill}] tiles>",
-					"Minor deposits generated with weight [20] <in [{Plains} {Hill}] tiles>",
-					"Minor deposits generated with weight [30] <in [{Desert} {Hill}] tiles>",
-					"Minor deposits generated with weight [30] <in [{Tundra} {Hill}] tiles>",
-					"Minor deposits generated with weight [30] <in [{Snow} {Hill}] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"culture": 1,
+		"uniques": [
+			"Cannot be traded"
+		]
 	},
 	{
-		"name": "Aluminum",
+		"name": "Spirit", 
 		"resourceType": "Strategic",
-		"revealedBy": "Electricity",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
+		"uniques": [
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Hippogriffs", 
+		"resourceType": "Strategic",
+		"revealedBy": "Animal Husbandry",
+		"culture": 1,
+		"uniques": [
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Arcane Focus",
+		"resourceType": "Strategic"		
+	},
+	{
+		"name": "Mithril",
+		"resourceType": "Strategic",
+		"revealedBy": "Technomancy",
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle","Mountain"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
-					"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
-					"Generated with weight [39] <in [Hill] tiles>",
-					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
-					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
+		"improvementStats": {"production": 1, "gold":1},
+		"uniques": ["Generated with weight [8] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [5] <in [{Featureless} {Snow}] tiles>",	
+					"Generated with weight [25] <in [{Featureless} {Mountain}] tiles>",
+					"Generated with weight [15] <in [Hill] tiles>",
+					"Minor deposits generated with weight [12] <in [Jungle] tiles>",
+					"Minor deposits generated with weight [8] <in [{Featureless} {Desert}] tiles>"],
+		"majorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 
