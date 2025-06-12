@@ -120,8 +120,7 @@
             {"text": "Rivers", "link":"Terrain/River"},
             {"text": "Oasis", "link":"Terrain/Oasis"},
             {"text": "Farm", "link":"Improvement/Farm"},
-            {"text": "Civil Service", "link":"Technology/Civil Service"},
-            {"text": "Fertilizer", "link":"Technology/Fertilizer"}
+            {"text": "Civil Service", "link":"Technology/Technomancy"}
         ]
 	},
 	{
@@ -266,7 +265,8 @@
             {"text": "Oases provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Lakes)."},
             {"text": "Rivers", "link":"Terrain/River"},
             {"text": "Lakes", "link":"Terrain/Lakes"},
-            {"text": "Farm", "link":"Improvement/Farm"}
+            {"text": "Farm", "link":"Improvement/Farm"},
+            {"text": "Civil Service", "link":"Technology/Technomancy"}
         ]
 	},
 	{
@@ -329,6 +329,21 @@
 
     // Natural Wonders
 	{
+		"name": "Field of the Laughing Dead",
+		"type": "NaturalWonder",
+		"production": 2,
+		"science": 2,
+		"overrideStats": true,
+		"occursOn": ["Desert"],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [1] to [6] [Desert] tiles",
+			"Neighboring tiles will convert to [Desert]"],
+		"weight": 2
+	},
+	{
 		"name": "Great Barrier Reef",
 		"type": "NaturalWonder",
 		"food": 2,
@@ -346,11 +361,10 @@
 		"weight": 10
 	},
 	{
-		"name": "Haunted Mine",
+		"name": "Old Faithful",
 		"type": "NaturalWonder",
-		"production": 3,
-		"gold": 4,
-		"overrideStats": true,
+		"science": 2,
+		"happiness": 3,
 		"occursOn": ["Grassland","Plains","Tundra","Mountain"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] to [4] [Mountain] tiles",
@@ -377,13 +391,13 @@
 			"Neighboring tiles will convert to [Desert]"],
 		"weight": 2
 	},
-	{ // This will count as "Fresh water" in civ 6
+	{ 
 		"name": "Mystic Lake",
 		"type": "NaturalWonder",
 		"happiness": 8,
-		"overrideStats": false,
+		"overrideStats": true,
 		"occursOn": ["Plains"],
-		"turnsInto": "Plains",
+		"turnsInto": "Lake",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
@@ -391,6 +405,7 @@
 			"Must be adjacent to [3] to [6] [Elevated] tiles",
 			"Must be adjacent to [0] to [2] [Desert] tiles",
 			"Must be adjacent to [0] to [1] [Tundra] tiles",
+			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
 			"Fresh water",
 			"Tile provides yield without assigned population"],
 		"weight": 1
@@ -410,71 +425,88 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-
 	{
-		"name": "Isle of Fright",
+		"name": "Witch's Kitchen",
 		"type": "NaturalWonder",
-		"food": 2,
-		"gold": 5,
+		"gold": 1,
+		"production": 3,
+		"science": 4,
+		"occursOn": ["Grassland","Plains"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Mountain] tiles",
+			"Must be adjacent to [1] to [6] [Plains] tiles",
+			"Neighboring tiles will convert to [Marsh]"
+			],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Sorcerer's Isle",
+		"type": "NaturalWonder",
+		"science": 6,
 		"occursOn": ["Ocean"],
-		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
+		"uniques": ["Must be adjacent to [2] to [6] [Coast] tiles",
 			"Must be adjacent to [0] [Ice] tiles",
 			"Neighboring tiles will convert to [Coast]"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
-	},
-/* 	{
-		"name": "Rock of Gibraltar",
-		"type": "NaturalWonder",
-		"food": 2,
-		"gold": 5,
-		"occursOn": ["Grassland"],
-		"uniques": ["Must be adjacent to [1] to [5] [Coast] tiles",
-			"Must be adjacent to [1] [Mountain] tiles",
-            "Neighboring tiles will convert to [Coast] <in tiles without [Mountain]>"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
+		"weight": 5
 	},
 	{
-		"name": "Mount Fuji",
+		"name": "Serpent Bay",
 		"type": "NaturalWonder",
-		"gold": 1,
-		"culture": 5,
+		"food": 4,
+		"gold": 3,
+		"culture": 2,
 		"occursOn": ["Grassland","Plains"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Tundra] tiles",
-			"Must be adjacent to [0] [Desert] tiles",
-			"Must be adjacent to [0] [Mountain] tiles",
-			"Must be adjacent to [0] [Marsh] tiles",
-			"Must be adjacent to [0] to [2] [Hill] tiles",
-			"Must not be on [1] largest landmasses"],
-		"turnsInto": "Mountain",
+		"uniques": ["Must be adjacent to [1] [Coast] tiles",
+			"Must be adjacent to [1] to [4] [Grassland] tiles", 
+			"Must be adjacent to [0] to [4] [Plains] tiles", 
+			"Must be adjacent to [0] [Tundra] tiles", 
+			"Must be adjacent to [0] [Desert] tiles", 
+			"Must be adjacent to [0] [Mountian] tiles" ,
+			"Neighboring tiles will convert to [Coast] <in tiles without [Coast]>",
+			"Neighboring tiles will convert to [Ocean] <in [Coast] tiles>"		
+		],
+		"turnsInto": "Ocean",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
 	},
 	{
-		"name": "Cerro de Potosi",
+		"name": "Faces to the Sea",
+		"type": "NaturalWonder",
+		"food": 3,
+		"culture": 4,
+		"occursOn": ["Grassland"],
+		"uniques": ["Must be adjacent to [2] to [4] [Coast] tiles",
+			"Must be adjacent to [1] to [4] [Grassland] tiles" ],
+		"turnsInto": "Grassland",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Tombs of Olde",
 		"type": "NaturalWonder",
 		"gold": 10,
-		"occursOn": ["Plains","Mountain"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [1] to [6] [Hill] tiles"],
-		"turnsInto": "Mountain",
+		"occursOn": ["Plains","Desert"],
+		"uniques": ["Must be adjacent to [0] to [2] [Coast] tiles",
+			"Must be adjacent to [2] to [6] [Desert] tiles"],
+		"turnsInto": "Desert",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 5
-	}, */
+	},
 	{
 		"name": "Crater of  the Punishing Star",
 		"type": "NaturalWonder",
 		"gold": 2,
-		"production": 1,
-		"science": 3,
+		"production": 2,
+		"science": 4,
 		"occursOn": ["Desert","Tundra"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles",
