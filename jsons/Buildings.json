@@ -37,7 +37,7 @@
 		"requiredNearbyImprovedResources": ["Gems","Gold Ore","Silver"],
 		"happiness": 1,
 		"culture": 1,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Bard": 1},
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"requiredTech": "Technomancy",
@@ -54,17 +54,17 @@
 		"requiredNearbyImprovedResources": ["Honey"],
 		"happiness": 1,
 		"cost": 75,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Bard": 1},
 		"hurryCostModifier": 10,
 		"maintenance": 1,
 		"requiredTech": "Fermentation",
 		"uniques": [ 
 			"Provides [1] [Mead]",
-			"[+1 Happiness] <after discovering [Stringed Instruments]>",
-			"[+2 Culture] <after discovering [Bardic Tales]>",
+			"[+1 Happiness] <after discovering [Technomancy]>",
+			"[+2 Culture] <after discovering [Technomancy]>",
 			"[+1 Gold] from [Honey] tiles [in this city]",
 			"[+1 Gold] from [Wine] tiles [in this city]",
-			"New [Heroic] units start with [15] Experience [in this city] <after discovering [Bardic Tales]>",
+			"New [Heroic] units start with [15] Experience [in this city] <after discovering [Technomancy]>",
 			"Destroyed when the city is captured"
 			]
 	},
@@ -273,7 +273,7 @@
 	},
 	{
 		"name": "Hanging Gardens",
-		"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Bard": 1},
 		"food": 6,
 		"culture": 1,
 		"isWonder": true,
@@ -285,7 +285,7 @@
 		"name": "Terracotta Army",
 		"culture": 6,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Bard": 1},
 		"requiredTech": "Construction",
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
@@ -311,19 +311,19 @@
 	{
 		"name": "Amphitheater",
 		"culture": 3,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Bard": 1},
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Engineering"
+		"requiredTech": "Technomancy"
 	},
 	{
 		"name": "Aqueduct",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
-		"requiredTech": "Engineering"
+		"requiredTech": "Technomancy"
 	},
 	{
 		"name": "Colossus",
@@ -345,7 +345,7 @@
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "T"
+		"requiredTech": "Technomancy"
 	},
 	{
 		"name": "Workshop",
@@ -446,7 +446,7 @@
 		"faith": 1,
 		"culture": 3,
 		"happiness": 1,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Bard": 1},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{

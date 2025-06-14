@@ -95,7 +95,7 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 50,
-		"requiredTech": "Metal Working",
+		"requiredTech": "Metalworking",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
