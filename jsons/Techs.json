@@ -100,7 +100,7 @@
 				"quote": "The weight of history rests upon the shoulders of well-laid stones."
 			},
 			{
-				"name": "Metal Working",
+				"name": "Metalworking",
 				"row": 10,
 				"prerequisites": ["Mining"],
 				"quote": "The skilled hand of the metalworker coaxes forth the hidden potential within the metal."
@@ -117,7 +117,7 @@
 			{
 				"name": "Optics",
 				"row": 1,
-				"prerequisites": ["Sailing", "Metal Working"],
+				"prerequisites": ["Sailing", "Metalworking"],
 				"quote": "'It is a most beautiful instrument. There is no doubt that the telescope will reveal countless things.' - Johannes Kepler"
 			},
 			{

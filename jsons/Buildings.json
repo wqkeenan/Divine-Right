@@ -29,7 +29,7 @@
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Mythology",
+		"requiredTech": "Tribal Law",
 		"uniques": ["Hidden when religion is disabled"]
 	},
 	{
@@ -74,7 +74,7 @@
 		"production": 2,
 		"cost": 75,
 		"hurryCostModifier": 25,
-		"requiredTech": "Smithing",
+		"requiredTech": "Metalworking",
 		"uniques": [ 
 			"[Mounted] Units adjacent to this city heal [5] HP per turn when healing",
 			"[+1 Production] from [Iron] tiles [in this city]"
@@ -85,7 +85,7 @@
 		"cost": 160,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "Fine Steel",
+		"requiredTech": "Technomancy",
 		"requiredBuilding": "Barracks",
 		"uniques": [ 
 			"[Archery] Units adjacent to this city heal [5] HP per turn when healing",
@@ -103,7 +103,7 @@
 		"specialistSlots": {"Sage": 1},
 		"hurryCostModifier": 60,
 		"maintenance": 3,
-		"requiredTech": "The Weave",
+		"requiredTech": "Technomancy",
 		"uniques": [ 
 			"[+2 Science] from [Mana] tiles [in this city]",
 			"New [Magical] units start with [15] Experience [in this city]",
@@ -121,7 +121,7 @@
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]"
 			],
-		"requiredTech": "Pottery"
+		"requiredTech": "Agriculture"
 	},
 
 	{
@@ -140,7 +140,7 @@
 			"New [Military] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Military Service"
+		"requiredTech": "Technomancy"
 	},
 	{
 		"name": "Conclave",
@@ -150,7 +150,7 @@
 			"New [Magical] units start with [15] Experience [in this city]", 
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Military Service"
+		"requiredTech": "Technomancy"
 	},
 	{
 		"name": "Library",
@@ -166,7 +166,7 @@
 		"requiredResource": "Mana",
 		"greatPersonPoints": {"Great Sage": 2},
         "uniques": ["[+10]% [Science] [in all cities]"],
-		"requiredTech": "The Weave",
+		"requiredTech": "Technomancy",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
 	{
@@ -188,7 +188,7 @@
 			"[+1 Food] from [Coast] tiles [in this city]", 
 			"[+1 Food] from [Fish] tiles [in this city]" 
 		],
-		"requiredTech": "Astrolabe"
+		"requiredTech": "Optics"
 	},
 	{
 		"name": "Stable",
@@ -269,7 +269,7 @@
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]"
 		],
-		"requiredTech": "Mathematics"
+		"requiredTech": "Technomancy"
 	},
 	{
 		"name": "Hanging Gardens",
@@ -277,7 +277,7 @@
 		"food": 6,
 		"culture": 1,
 		"isWonder": true,
-		"requiredTech": "Mathematics",
+		"requiredTech": "Technomancy",
 		"uniques": ["Gain a free [Garden] [in this city]"],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
 	},
@@ -296,7 +296,7 @@
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Religion",
+		"requiredTech": "Technomancy",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
 	{
@@ -305,7 +305,7 @@
 		"greatPersonPoints": {"Great Sage": 1},
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
-		"requiredTech": "Divination",
+		"requiredTech": "Technomancy",
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
 	{
@@ -333,7 +333,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
-		"requiredTech": "Smithing",
+		"requiredTech": "Metalworking",
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
 
@@ -345,7 +345,7 @@
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "Natural Lore"
+		"requiredTech": "T"
 	},
 	{
 		"name": "Workshop",
@@ -354,14 +354,14 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
-		"requiredTech": "Smithing"
+		"requiredTech": "Technomancy"
 	},
 	{
 		"name": "Forge",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Iron"],
-		"requiredTech": "Smithing",
+		"requiredTech": "Metalworking",
 		"uniques": [
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"
@@ -378,7 +378,7 @@
 			"Connects trade routes over water",
 			"Must be next to [Coast]"
 		],
-		"requiredTech": "Astrolabe"
+		"requiredTech": "Optics"
 	},
 
 
@@ -392,7 +392,7 @@
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
-		"requiredTech": "Trade"
+		"requiredTech": "Technomancy"
 	},
 
 	// will be introduced in BNW expansion pack
