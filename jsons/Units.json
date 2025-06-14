@@ -22,7 +22,7 @@
 		"strength": 7,
 		"cost": 35,
         "obsoleteTech": "Metalworking",
-		"upgradesTo": "Spearman",
+		"upgradesTo": "Spearmen",
 		"uniques" : ["May upgrade to [Spearmen] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
