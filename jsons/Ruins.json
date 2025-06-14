@@ -65,14 +65,14 @@
         "uniques": ["Free [Technology] <with a research cost of [50] or less>", "Only available <after [10] turns>"]
     },
     {
-        "name": "free [Great Bard]", // Changed from Great Artist
-        "notification": "A wandering bard has joined us!", // Changed from wandering artist
-        "uniques": ["Free [Great Bard] found in the ruins"] // Changed from Great Artist
+        "name": "free [Great Bard]", 
+        "notification": "A wandering bard has joined us!", 
+        "uniques": ["Free [Great Bard] found in the ruins"] 
     },
     {
         "name": "gold",
         "notification": "We have found gold in the ruins!",
-        "uniques": ["Gain [25] [Gold] <(modified by game speed)>"]
+        "uniques": ["Gain [50] [Gold] <(modified by game speed)>"]
     },
     {
         "name": "faith",
@@ -87,27 +87,27 @@
     {
         "name": "science",
         "notification": "We have gained new scientific insights from the ruins!",
-        "uniques": ["Gain [25] [Science] <(modified by game speed)>"]
+        "uniques": ["Gain [40] [Science] <(modified by game speed)>"]
     },
-    {
+/*     {
         "name": "minor resource boost",
         "notification": "We found a small cache of resources!",
         "uniques": ["Gain [1] of every [Strategic Resource] that you have discovered"],
         "color": "#cf8ff7"
-    },
+    }, 
     {
         "name": "major resource boost",
         "notification": "A significant store of resources has been unearthed!",
         "uniques": ["Gain [5] of every [Strategic Resource] that you have discovered"],
         "color": "#cf8ff7"
-    },
-    	{
-		"name": "combat armor",
+    },*/
+    {
+		"name": "magic armor",
 		"notification": "Our unit finds advanced armor hidden in the camp!",
 		"weight": 3,
-		"uniques": ["[This Unit] gains the [Combat Armor] promotion",
+		"uniques": ["[This Unit] gains the [Magic Armor] promotion",
 			"[This Unit] gains [10] XP",
-			"Only available <for [Personnel] units> <for units without [Combat Armor]>"]
+			"Only available <for [Hero] units> <for units without [Magic Armor]>"]
 	},
     {
         "name": "free technology with great sage",

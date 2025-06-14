@@ -135,7 +135,7 @@
 			{
 				"name": "Trade",
 				"row": 5,
-				"prerequisites": ["Hunting","Wheel"],
+				"prerequisites": ["Hunting","The Wheel"],
 				"quote": "'Commerce is the cure for the most destructive prejudices.' - Voltaire" 
 			},						
 			{
