@@ -397,7 +397,7 @@
 		"happiness": 8,
 		"overrideStats": true,
 		"occursOn": ["Plains"],
-		"turnsInto": "Lake",
+		"turnsInto": "Lakes",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
