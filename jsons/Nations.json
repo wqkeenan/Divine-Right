@@ -15,8 +15,7 @@
 		"innerColor": [142,22,0],
 		"uniqueName": "Word of Nod",
 		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>"],
-		"cities": ["Colist","Boliske","Boran","Addat","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
+		"cities": ["Colist","Boliske","Boran","Addat"]
 	},
 
 	{
@@ -35,8 +34,7 @@
 		"innerColor": [0,0,0],
 		"uniqueName": "Purification",
 		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
-		"cities": ["Port Lork","Lapspell","Tadafat","Farnot","Bad Axe","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
+		"cities": ["Port Lork","Lapspell","Tadafat","Farnot","Bad Axe"]
 	},
 
 	{
@@ -55,8 +53,7 @@
 		"innerColor": [0,0,0],
 		"uniqueName": "Purification",
 		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
-		"cities": ["Pennol","Basimar","Groat","Bellon","Pilba","Yando","Carth","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
+		"cities": ["Pennol","Basimar","Groat","Bellon","Pilba","Yando","Carth"]
 	},
 
 	{
@@ -75,8 +72,7 @@
 		"innerColor": [0,0,0],
 		"uniqueName": "Purification",
 		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
-		"cities": ["Adeese","Khurdul","Zefnar","Jipolis","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
+		"cities": ["Adeese","Khurdul","Zefnar","Jipolis"]
 	},
 
 	{
@@ -95,20 +91,19 @@
 		"innerColor": [0,0,0],
 		"uniqueName": "Purification",
 		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
-		"cities": ["Altarr","Muscaster","Lone Wirzor","The Gap","Gorpin","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
+		"cities": ["Altarr","Muscaster","Lone Wirzor","The Gap","Gorpin"]
 	},
 	{
 		"name": "Zorn",
 		"adjective": ["Goblins"],
 		"cityStateType": "Militaristic",
-// 
+// Draschgig the Terrible
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [225, 194, 129],
-		"cities": ["Milan"]
+		"cities": ["The Pits"]
 	},
 	{
 		"name": "Trollover",
@@ -121,30 +116,6 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [225, 194, 129],
 		"cities": ["The Stone Face"]
-	},
-	{
-		"name": "Zorn",
-		"adjective": ["Goblins"],
-		"cityStateType": "Militaristic",
-// 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [225, 194, 129],
-		"cities": ["Milan"]
-	},
-	{
-		"name": "Zorn",
-		"adjective": ["Goblins"],
-		"cityStateType": "Militaristic",
-// 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [225, 194, 129],
-		"cities": ["Milan"]
 	},
 	{
 		"name": "Neuth",
@@ -186,7 +157,7 @@
 		"name": "The Black Hand",
 		"adjective": ["Undead"],
 		"cityStateType": "Cultured",
-// Thaumaturga
+// The Necromancer
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "You fiend! History shall remember this!",
