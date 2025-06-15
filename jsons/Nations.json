@@ -1,5 +1,10 @@
 [
     {
+		"name": "Spectator",
+		"outerColor": [255, 255, 255]
+		// "innerColor": [255,255,255]
+	},
+	{
 		"name": "Mivior",
 		"leaderName": "Nualt the Dreamer",
 		"preferredVictoryType": "Domination",
@@ -11,8 +16,8 @@
 		"defeated": "You have the guts to call my body a corpse but beware, I know what will happen to our future- our tiberium future.",
 		"introduction": "If I am cut, Do I not bleed?",
 		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
-		"outerColor": [0,0,0],
-		"innerColor": [142,22,0],
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
 		"uniqueName": "Word of Nod",
 		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>"],
 		"cities": ["Colist","Boliske","Boran","Addat"]
@@ -30,8 +35,8 @@
 		"defeated": "I see for the black hand has been unworthy to serve Kane.",
 		"introduction": "If you would stay out of our way then you might live to tell your tale.",
 		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [139,0,0],
-		"innerColor": [0,0,0],
+		"outerColor": [126, 192, 253],
+		"innerColor": [85, 85, 85],
 		"uniqueName": "Purification",
 		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
 		"cities": ["Port Lork","Lapspell","Tadafat","Farnot","Bad Axe"]
@@ -49,8 +54,8 @@
 		"defeated": "I see for the black hand has been unworthy to serve Kane.",
 		"introduction": "If you would stay out of our way then you might live to tell your tale.",
 		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [139,0,0],
-		"innerColor": [0,0,0],
+		"outerColor": [243, 213, 90],
+		"innerColor": [191, 93, 2],
 		"uniqueName": "Purification",
 		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
 		"cities": ["Pennol","Basimar","Groat","Bellon","Pilba","Yando","Carth"]
@@ -68,8 +73,8 @@
 		"defeated": "I see for the black hand has been unworthy to serve Kane.",
 		"introduction": "If you would stay out of our way then you might live to tell your tale.",
 		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [139,0,0],
-		"innerColor": [0,0,0],
+		"outerColor": [217, 56, 7],
+		"innerColor": [255, 218, 31],
 		"uniqueName": "Purification",
 		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
 		"cities": ["Adeese","Khurdul","Zefnar","Jipolis"]
@@ -87,8 +92,8 @@
 		"defeated": "I see for the black hand has been unworthy to serve Kane.",
 		"introduction": "If you would stay out of our way then you might live to tell your tale.",
 		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [139,0,0],
-		"innerColor": [0,0,0],
+		"outerColor": [77, 77, 77],
+		"innerColor": [245, 184, 0],
 		"uniqueName": "Purification",
 		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
 		"cities": ["Altarr","Muscaster","Lone Wirzor","The Gap","Gorpin"]
@@ -101,8 +106,8 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [225, 194, 129],
+		"outerColor": [255, 136, 0],
+		"innerColor": [70, 90, 50],
 		"cities": ["The Pits"]
 	},
 	{
@@ -113,8 +118,8 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [225, 194, 129],
+		"outerColor": [130, 224, 16],
+		"innerColor": [53, 99, 0],
 		"cities": ["The Stone Face"]
 	},
 	{
@@ -125,8 +130,8 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [193, 84, 255],
+		"outerColor": [146, 222, 182],
+		"innerColor": [99, 16, 232],
 		"cities": ["Ider Bolis"]
 	},
 	{
@@ -137,8 +142,8 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [225, 194, 129],
+		"outerColor": [147, 218, 230],
+		"innerColor": [0, 19, 186],
 		"cities": ["Rosengg"]
 	},
 	{
@@ -149,8 +154,8 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [193, 84, 255],
+		"outerColor": [184, 184, 184],
+		"innerColor": [99, 99, 99],
 		"cities": ["School of Thaumaturgy"]
 	},
 	{
@@ -161,8 +166,8 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [193, 84, 255],
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
 		"cities": ["Tower of Zards"]
 	}
 ]
