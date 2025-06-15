@@ -20,7 +20,7 @@
     {
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
-        "uniques": ["This Unit gains [10] XP", "Only available <after [10] turns>"]
+        "uniques": ["This Unit gains [10] XP"]
     },
     {
         "name": "survivors (adds population to a city)",
@@ -37,7 +37,7 @@
     {
         "name": "advanced weaponry for your explorer",
         "notification": "Our unit finds advanced weaponry hidden in the ruins!",
-        "uniques": ["This Unit upgrades for free including special upgrades"]
+        "uniques": ["[This Unit] upgrades for free including special upgrades"]
     },
     {
         "name": "reveal nearby Barbarian camps",
@@ -47,12 +47,12 @@
     {
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
-        "uniques": ["This Unit gains [10] XP", "Only available <after [10] turns>"]
+        "uniques": ["This Unit gains [10] XP", "Only available <after turn number [10]>"]
     },
     {
         "name": "your exploring unit discovers a magical item",
         "notification": "An ancient tribe trained us in their ways of combat!",
-        "uniques": ["This Unit gains [15] XP", "Only available <after [10] turns>"]
+        "uniques": ["This Unit gains [15] XP", "Only available <after turn number [10]>"]
     },
     {
         "name": "find a crudely-drawn map",
@@ -62,7 +62,7 @@
     {
         "name": "free technology",
         "notification": "A free technology has been discovered in the ruins!",
-        "uniques": ["Free [Technology] <with a research cost of [50] or less>", "Only available <after [10] turns>"]
+        "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]", "Only available <after turn number [10]>"]
     },
     {
         "name": "free [Great Bard]", 

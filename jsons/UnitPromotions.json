@@ -12,6 +12,12 @@
     {
         "name": "Magic Armor",
         "unitTypes":["Hero"]
+    },
+    {
+        "name": "Ignore terrain cost",
+        "uniques": [
+            "Ignores terrain cost"
+        ]
     }
     /*
     // Ranged+Siege
@@ -650,12 +656,7 @@
             "Withdraws before melee combat <with [80]% chance>"
         ]
     },
-    {
-        "name": "Ignore terrain cost",
-        "uniques": [
-            "Ignores terrain cost"
-        ]
-    },
+
     {
         "name": "Sea Nomads", // Brunei
         "uniques": [
