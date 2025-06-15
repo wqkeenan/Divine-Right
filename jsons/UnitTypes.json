@@ -20,8 +20,17 @@
         "movementType": "Land"
     },
     {
+        "name": "Hero",
+        "movementType": "Land"
+    }, 
+    {
         "name": "Magical",
         "movementType": "Land"
+    }, 
+    {
+        "name": "Magical Flying",
+        "movementType": "Air",
+        "uniques":["Magical","Air"]
     }, 
     {
         "name": "Undead",
@@ -52,7 +61,7 @@
     {
         "name": "Sea Serpent",
         "movementType": "Water",
-        "uniques": ["Monster","Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+        "uniques": ["Monster","Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Water] units"]
     },
         // Deprecated unit types required for mods without a UnitTypes.json file to work
 

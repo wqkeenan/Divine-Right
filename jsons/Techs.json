@@ -165,8 +165,7 @@
                 "prerequisites": ["Writing"],
                 "quote": "'To map the currents of the unseen, one must first learn to read the whispers of the hidden world.' - Ancient Arcanist Proverb",
                 "uniques": [
-                    "Reveals [Mana] strategic resource locations",
-                    "Unlocks [Aether Well] improvement"
+                    "Reveals [Mana] strategic resource locations"
                 ]
             }
 		]

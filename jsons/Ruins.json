@@ -103,15 +103,10 @@
     },*/
     {
 		"name": "magic armor",
-		"notification": "Our unit finds advanced armor hidden in the camp!",
+		"notification": "Our unit finds magical armor hidden in the lair!",
 		"weight": 3,
 		"uniques": ["[This Unit] gains the [Magic Armor] promotion",
 			"[This Unit] gains [10] XP",
 			"Only available <for [Hero] units> <for units without [Magic Armor]>"]
-	},
-    {
-        "name": "free technology with great sage",
-        "notification": "Through ancient knowledge, we discover a new technology and are joined by a powerful sage!",
-        "uniques": ["Gain [100] [Science] <(modified by game speed)>", "Free [Great Sage] found in the ruins"]
-    }
+	}
 ]

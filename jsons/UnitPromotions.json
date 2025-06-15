@@ -5,10 +5,15 @@
             "[This Unit] heals [50] HP",
             "Doing so will consume this opportunity to choose a Promotion"
         ],
-        "unitTypes": ["Sword","Archery","Mounted","Siege","Magical","Undead","Monster","Monster Air","Melee Water","Ranged Water","Sea Serpent","Flying"],
+        "unitTypes": ["Sword","Archery","Mounted","Siege","Hero","Magical","Magical Flying","Undead","Monster","Monster Air","Melee Water","Ranged Water","Sea Serpent"],
         "row": 0,
         "column": 0
     },
+    {
+        "name": "Magic Armor",
+        "unitTypes":["Hero"]
+    }
+    /*
     // Ranged+Siege
     {
         "name": "Accuracy I",
@@ -279,7 +284,7 @@
         "name": "Landing Party",
         "uniques": ["Eliminates combat penalty for attacking across a coast"],
         "unitTypes": ["Melee Water"]
-    },*/
+    },
     // Water Ranged
     {
         "name": "Targeting I",
@@ -502,7 +507,7 @@
         "prerequisites": ["Anti-Armor I"],
         "uniques": ["[+25]% Strength <vs [Armored] units>"],
         "unitTypes": ["Helicopter"],
-    },*/
+    },
     // Mixed
     {
         "name": "Cover I",
@@ -1382,4 +1387,5 @@
         "prerequisites": ["Pünktlichkeit"],
         "unitTypes": ["Sword","Mounted","Scout","Siege","Archery","Mounted Ranged","Armored","Gunpowder","Paratrooping","Ranged Gunpowder"]
     }
+        */
 ]
