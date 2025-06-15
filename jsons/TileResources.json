@@ -107,7 +107,7 @@
 	{
 		"name": "Mana",
 		"resourceType": "Strategic",
-		"revealedBy": "Technomancy",
+		"revealedBy": "Aetheric Cartography",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
 		"science": 1,
 		"improvement": "Aether Well",

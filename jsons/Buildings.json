@@ -64,7 +64,7 @@
 			"[+2 Culture] <after discovering [Technomancy]>",
 			"[+1 Gold] from [Honey] tiles [in this city]",
 			"[+1 Gold] from [Wine] tiles [in this city]",
-			"New [Heroic] units start with [15] Experience [in this city] <after discovering [Technomancy]>",
+			"New [Heroic] units start with [15] XP [in this city] <after discovering [Technomancy]>",
 			"Destroyed when the city is captured"
 			]
 	},
@@ -89,10 +89,10 @@
 		"requiredBuilding": "Barracks",
 		"uniques": [ 
 			"[Archery] Units adjacent to this city heal [5] HP per turn when healing",
-			"New [Sword] units start with [15] Experience [in this city]",
-			"New [Mounted] units start with [15] Experience [in this city]",
-			"New [Scout] units start with [15] Experience [in this city]",
-			"New [Archery] units start with [15] Experience [in this city]",
+			"New [Sword] units start with [15] XP [in this city]",
+			"New [Mounted] units start with [15] XP [in this city]",
+			"New [Scout] units start with [15] XP [in this city]",
+			"New [Archery] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"	
 			]
 	},
@@ -106,7 +106,7 @@
 		"requiredTech": "Technomancy",
 		"uniques": [ 
 			"[+2 Science] from [Mana] tiles [in this city]",
-			"New [Magical] units start with [15] Experience [in this city]",
+			"New [Magical] units start with [15] XP [in this city]",
 			"[Magical] Units adjacent to this city heal [5] HP per turn when healing",
 			"Destroyed when the city is captured"	
 			]
@@ -137,7 +137,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Technomancy"
@@ -147,7 +147,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"New [Magical] units start with [15] Experience [in this city]", 
+			"New [Magical] units start with [15] XP [in this city]", 
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Technomancy"
@@ -217,7 +217,7 @@
 		"uniques": [
 			"Provides [1] [Mead]", 
 			"Gain a free [Tavern] [in this city]",
-			"New [Heroic] units start with [15] Experience [in this city]"],
+			"New [Heroic] units start with [15] XP [in this city]"],
 		"requiredTech": "Technomancy",
 		"quote": "From everywhere adventurers are attracted to this legendary inn attracts to share experience, recruit, and of course, drink mead."
 	},
