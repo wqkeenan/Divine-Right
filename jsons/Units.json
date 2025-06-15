@@ -122,13 +122,13 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Swordsman",
+		"name": "Swordsmen",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Metalworking",
-		"upgradesTo": "Halberdiers",
+		"upgradesTo": "Footmen",
 		"obsoleteTech": "Technomancy",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,

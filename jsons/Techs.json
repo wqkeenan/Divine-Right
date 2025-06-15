@@ -22,7 +22,7 @@
 				"name": "Technomancy",
 				"row": 10,
 				"quote": "Place holder tech to place things in while figuing out where  in the tree they should reside.",
-				"uniques": ["Will not be displayed in Civilopedia", "[Unavailable]" ]
+				"uniques": ["Will not be displayed in Civilopedia", "Only available <after discovering [Technomancy]>" ]
 			}
 		]
 	},
