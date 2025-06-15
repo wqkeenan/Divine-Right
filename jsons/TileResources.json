@@ -198,8 +198,18 @@
 		]
 	},
 	{
+		"name": "Spells",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Cannot be traded"
+		]	
+	},	
+	{
 		"name": "Arcane Focus",
-		"resourceType": "Strategic"		
+		"resourceType": "Strategic",
+		"uniques": [
+			"Cannot be traded"
+		]		
 	},
 	{
 		"name": "Mithril",

@@ -1,7 +1,7 @@
 [
     {
 		"name": "Mivior",
-		"leaderName": "Kane",
+		"leaderName": "Nualt the Dreamer",
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "Sample text.",
@@ -15,13 +15,13 @@
 		"innerColor": [142,22,0],
 		"uniqueName": "Word of Nod",
 		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
+		"cities": ["Colist","Boliske","Boran","Addat","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
 "Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
 	},
 
 	{
 		"name": "Hothior",
-		"leaderName": "Anton Slavik",
+		"leaderName": "Boarhort the Braggart",
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "Sample text.",
@@ -35,7 +35,163 @@
 		"innerColor": [0,0,0],
 		"uniqueName": "Purification",
 		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
+		"cities": ["Port Lork","Lapspell","Tadafat","Farnot","Bad Axe","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
 "Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
+	},
+
+	{
+		"name": "Muetar",
+		"leaderName": "Herrott Golden Helm",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text",
+		"declaringWar": "It is in  my Intentions to spread the word of Nod into your land.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "I see for the black hand has been unworthy to serve Kane.",
+		"introduction": "If you would stay out of our way then you might live to tell your tale.",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [139,0,0],
+		"innerColor": [0,0,0],
+		"uniqueName": "Purification",
+		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
+		"cities": ["Pennol","Basimar","Groat","Bellon","Pilba","Yando","Carth","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
+"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
+	},
+
+	{
+		"name": "Shucassam",
+		"leaderName": "Zanwee the Decadent",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text",
+		"declaringWar": "It is in  my Intentions to spread the word of Nod into your land.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "I see for the black hand has been unworthy to serve Kane.",
+		"introduction": "If you would stay out of our way then you might live to tell your tale.",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [139,0,0],
+		"innerColor": [0,0,0],
+		"uniqueName": "Purification",
+		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
+		"cities": ["Adeese","Khurdul","Zefnar","Jipolis","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
+"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
+	},
+
+	{
+		"name": "Immer",
+		"leaderName": "Euwint of the Marshes",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text",
+		"declaringWar": "It is in  my Intentions to spread the word of Nod into your land.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "I see for the black hand has been unworthy to serve Kane.",
+		"introduction": "If you would stay out of our way then you might live to tell your tale.",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [139,0,0],
+		"innerColor": [0,0,0],
+		"uniqueName": "Purification",
+		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
+		"cities": ["Altarr","Muscaster","Lone Wirzor","The Gap","Gorpin","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
+"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
+	},
+	{
+		"name": "Zorn",
+		"adjective": ["Goblins"],
+		"cityStateType": "Militaristic",
+// 
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225, 194, 129],
+		"cities": ["Milan"]
+	},
+	{
+		"name": "Trollover",
+		"adjective": ["Trolls"],
+		"cityStateType": "Militaristic",
+// Shoagg Peasant Plunderer
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225, 194, 129],
+		"cities": ["The Stone Face"]
+	},
+	{
+		"name": "Zorn",
+		"adjective": ["Goblins"],
+		"cityStateType": "Militaristic",
+// 
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225, 194, 129],
+		"cities": ["Milan"]
+	},
+	{
+		"name": "Zorn",
+		"adjective": ["Goblins"],
+		"cityStateType": "Militaristic",
+// 
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225, 194, 129],
+		"cities": ["Milan"]
+	},
+	{
+		"name": "Neuth",
+		"adjective": ["Elves"],
+		"cityStateType": "Militaristic",
+// Adillh the Recluse
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [193, 84, 255],
+		"cities": ["Ider Bolis"]
+	},
+	{
+		"name": "Alzakia",
+		"adjective": ["Dwarves"],
+		"cityStateType": "Cultured",
+// Usshin Iron Fist
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225, 194, 129],
+		"cities": ["Rosengg"]
+	},
+	{
+		"name": "Eaters of Wisdom",
+		"adjective": ["Eaters"],
+		"cityStateType": "Cultured",
+// Thaumaturga
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [193, 84, 255],
+		"cities": ["School of Thaumaturgy"]
+	},
+	{
+		"name": "The Black Hand",
+		"adjective": ["Undead"],
+		"cityStateType": "Cultured",
+// Thaumaturga
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [193, 84, 255],
+		"cities": ["Tower of Zards"]
 	}
 ]
