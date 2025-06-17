@@ -128,7 +128,7 @@
 			},
 			{
 				"name": "Excavation",
-				"row": 4,
+				"row": 2,
 				"prerequisites": ["Writing","Mining"],
 				"quote": "'The past is not dead; it is not even past.' - William Faulkner" 
 			},			
