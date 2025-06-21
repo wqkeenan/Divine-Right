@@ -15,7 +15,7 @@
         "row": 1,
         "column": 0,
         "uniques": [
-            "[+15]% Strength bonus"
+            "[+15]% Strength"
         ]
     },
     {
@@ -25,7 +25,7 @@
         "row": 1,
         "column": 1,
         "uniques": [
-            "[+10]% Strength bonus",
+            "[+10]% Strength",
             "Can move after attacking"
         ]
     },
@@ -36,7 +36,7 @@
         "row": 1,
         "column": 2,
         "uniques": [
-            "[+10]% Strength bonus"
+            "[+10]% Strength"
         ]
     },
     {
@@ -83,11 +83,11 @@
         "unitTypes": ["Magical"],
         "uniques": [
            "[+30]% Strength bonus for [All] units within [2] tiles <vs [Archery] units> <when defending>",
-           "[+70]% Strength bonus <vs [Archery] units> <when defending>",
+           "[+70]% Strength <vs [Archery] units> <when defending>",
            "[+15]% Strength bonus for [All] units within [1] tiles <vs [Siege] units> <when defending>",
-           "[+35]% Strength bonus <vs [Siege] units> <when defending>",
+           "[+35]% Strength <vs [Siege] units> <when defending>",
            "[+15]% Strength bonus for [All] units within [1] tiles <vs [Flying] units> <when defending>",
-           "[+50]% Strength bonus <vs [Flying] units>",
+           "[+50]% Strength <vs [Flying] units>",
            "Only available <after discovering [Technomancy]>"
         ]
     },
@@ -98,7 +98,7 @@
            "[-20]% Strength for enemy [Magical] units within [2] tiles",
            "[+25]% chance to intercept air attacks", 
            "[1] extra interceptions may be made per turn",
-           "[+60]% Strength bonus <vs [Magical] units>",
+           "[+60]% Strength <vs [Magical] units>",
            "Only available <after discovering [Technomancy]>"
         ]
     },
@@ -124,9 +124,9 @@
     {
         "name": "Sword of Slaying",
         "uniques": [
-            "[+75]% Strength bonus <vs [Monster] units>",
-            "[+25]% Strength bonus <vs [Undead] units>",
-            "[+25]% Strength bonus",
+            "[+75]% Strength <vs [Monster] units>",
+            "[+25]% Strength <vs [Undead] units>",
+            "[+25]% Strength",
             "Can see invisible [Monster] units",
             "Can see invisible [Undead] units"
         ]
@@ -134,18 +134,18 @@
     {
         "name": "Radiant Blade",
         "uniques": [
-            "[+100]% Strength bonus <vs [Undead] units>",
-            "[+30]% Strength bonus <vs [Monster] units>",
-            "[+20]% Strength bonus",
+            "[+100]% Strength <vs [Undead] units>",
+            "[+30]% Strength <vs [Monster] units>",
+            "[+20]% Strength",
             "Can see invisible [All] units"
         ]
     },
     {
         "name": "Magic Armor",
         "uniques": [
-            "[+25]% Strength bonus <vs [Ranged] units> <when defending>",
-            "[+15]% Strength bonus <when defending>",
-            "[+10]% Strength bonus"
+            "[+25]% Strength <vs [Ranged] units> <when defending>",
+            "[+15]% Strength <when defending>",
+            "[+10]% Strength"
         ]
     },
     {

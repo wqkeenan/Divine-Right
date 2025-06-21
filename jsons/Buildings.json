@@ -164,7 +164,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Consumes [1] [Mana]", 
-			"Provides [1] [Prentice]", 
+			"Provides [1] [Apprentice]", 
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Technomancy"
@@ -211,7 +211,7 @@
 		"maintenance": 2,
 		"uniques": [
 			"Consumes [2] [Mana]", 
-			"Provides [2] [Prentice]", 
+			"Provides [2] [Apprentice]", 
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Technomancy"

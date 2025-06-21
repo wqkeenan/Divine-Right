@@ -42,8 +42,8 @@
 			{
 				"name": "Tribal Law",
 				"row": 3,
-				"quote": "'The strength of the wolf is the pack, and the strength of the pack is the wolf.' - Rudyard Kipling",
-				"uniques": ["Craftsmanship"]
+				"prerequisites": ["Craftsmanship"],
+				"quote": "'The strength of the wolf is the pack, and the strength of the pack is the wolf.' - Rudyard Kipling"
 			},	
 			{
 				"name": "Animal Husbandry",

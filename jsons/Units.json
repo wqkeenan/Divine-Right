@@ -36,7 +36,7 @@
 		"strength": 5,
 		"cost": 25,
 		"uniques": ["May upgrade to [Bowmen] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Ignores terrain cost"],
+		"promotions": ["Pathfinder"],
 		"attackSound": "nonmetalhit"
 	},
     {
@@ -239,7 +239,7 @@
 		"uniques": [
 			"Consumes [1] [Scrolls]",
 			"[+100]% Strength <vs [Flying] units> <when attacking>",
-			"[+50]% Strength <vs Cities> <when attacking>"
+			"[+50]% Strength <vs cities> <when attacking>"
 		],
 		"attackSound": "artillery"
 	},
