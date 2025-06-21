@@ -20,10 +20,9 @@
 	},
 	{
 		"name": "Monument",
-		"culture": 2,
-		"cost": 40,
+		"culture": 1,
+		"cost": 20,
 		"hurryCostModifier": 40,
-		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -40,6 +39,7 @@
 		"happiness": 1,
 		"culture": 1,
 		"specialistSlots": {"Bard": 1},
+		"cost": 60,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"requiredTech": "Technomancy",
@@ -52,8 +52,23 @@
 			]
 	},
 	{
+		"name": "Clockworks",
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"cost": 80,
+		"hurryCostModifier": 60,
+		"maintenance": 1,
+		"requiredTech": "Technomancy",
+		"uniques": [ 
+			"[+1 Happiness] from [Gems] tiles [in this city]",
+			"[+1 Gold] from [Gold Ore] tiles [in this city]",
+			"[+1 Gold] from [Silver] tiles [in this city]",
+			"Doubles Gold given to enemy if city is captured",
+			"Destroyed when the city is captured"
+			]
+	},
+	{
 		"name": "Tavern",
-		"requiredNearbyImprovedResources": ["Honey"],
 		"culture": 2,
 		"cost": 75,
 		"specialistSlots": {"Bard": 1},
@@ -70,8 +85,23 @@
 			]
 	},
 	{
+		"name": "Apothecary",
+		"happiness": 1,
+		"culture": 1,
+		"cost": 75,
+		"specialistSlots": {"Sage": 1},
+		"hurryCostModifier": 10,
+		"maintenance": 1,
+		"requiredTech": "Fermentation",
+		"uniques": [ 
+			"[+1 Culture] <after discovering [Technomancy]>",
+			"[+1 Science] from [Spices] tiles [in this city]",
+			"[+1 Science] from [Truffles] tiles [in this city]",
+			"Destroyed when the city is captured"
+			]
+	},
+	{
 		"name": "Smithy",
-		"requiredNearbyImprovedResources": ["Iron","Horses"],
 		"production": 2,
 		"cost": 75,
 		"hurryCostModifier": 25,
@@ -79,23 +109,65 @@
 		"uniques": [ 
 			"[Mounted] Units adjacent to this city heal [5] HP per turn when healing",
 			"[+1 Production] from [Iron] tiles [in this city]"
-			]
+		]
+	},
+	{
+		"name": "Smelter",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"cost":160,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Technomancy",
+		"requiredBuilding": "Smithy",
+		"uniques": [
+			"[+1 Production] from [Iron] tiles [in this city]",
+			"[+1 Production] from [Copper] tiles [in this city]",
+			"[+1 Production] from [Mithril] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Technomancy",
+		"uniques": [
+			"New [Sword] units start with [15] XP [in this city]",
+			"New [Archery] units start with [15] XP [in this city]",
+			"New [Mounted] units start with [15] XP [in this city]",
+			"New [Scout] units start with [15] XP [in this city]",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Armory",
 		"cost": 160,
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 2,
 		"requiredTech": "Technomancy",
-		"requiredBuilding": "Barracks",
+		"requiredBuilding": "Smithy",
 		"uniques": [ 
-			"[Archery] Units adjacent to this city heal [5] HP per turn when healing",
+			"[+15]% Production when constructing [Sword] units [in this city]",
+			"[+15]% Production when constructing [Archery] units [in this city]",
 			"New [Sword] units start with [15] XP [in this city]",
 			"New [Mounted] units start with [15] XP [in this city]",
 			"New [Scout] units start with [15] XP [in this city]",
 			"New [Archery] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"	
 			]
+	},
+	{
+		"name": "Seer",
+		"science": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Consumes [1] [Mana]", 
+			"Provides [1] [Prentice]", 
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Technomancy"
 	},
 	// Column 1
 	{
@@ -132,27 +204,6 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Trade"
-	},
-	{
-		"name": "Barracks",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": [
-			"New [Military] units start with [15] XP [in this city]",
-			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Technomancy"
-	},
-	{
-		"name": "Seer",
-		"hurryCostModifier": 25,
-		"maintenance": 2,
-		"uniques": [
-			"Consumes [1] [Mana]", 
-			"Provides [1] [Prentice]", 
-			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Technomancy"
 	},
 	{
 		"name": "Arcane Academy",
@@ -222,7 +273,7 @@
 		"happiness": 2,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
-		"requiredTech": "Masonry"
+		"requiredTech": "Rituals"
 	},
 	{
 		"name": "Arena",

@@ -134,8 +134,7 @@
 		"name": "Horses",
 		"resourceType": "Strategic",
 		"revealedBy": "Animal Husbandry",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
-		"production": 1,
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], 
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": ["Guaranteed with Strategic Balance resource option",
@@ -177,6 +176,7 @@
 		"name": "Sovereign",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
 			"Cannot be traded"
 		]
 	},

@@ -36,7 +36,7 @@
 		"strength": 5,
 		"cost": 25,
 		"uniques": ["May upgrade to [Bowmen] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Ignore terrain cost"],
+		"promotions": ["Ignores terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
     {
