@@ -28,9 +28,12 @@
         "movementType": "Land"
     }, 
     {
-        "name": "Magical Flying",
+        "name": "Spell",
         "movementType": "Air",
-        "uniques":["Magical","Air"]
+        "uniques": [
+            "Self-destructs when attacking", 
+            "[-90]% maintenance costs"
+        ]
     }, 
     {
         "name": "Undead",
@@ -38,13 +41,7 @@
     }, 
     {
         "name": "Monster",
-        "movementType": "Land",
-        "uniques": ["Mounted"]
-    },
-    {
-        "name": "Monster Air",
-        "movementType": "Air",
-        "uniques": ["Monster","Air"]
+        "movementType": "Land"
     },
     {
         "name": "Civilian Water",

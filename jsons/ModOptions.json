@@ -1,1 +1,13 @@
-{"isBaseRuleset":true}
+{
+    "isBaseRuleset":true,
+    "modUrl":"https://github.com/wqkeenan/Divine-Right",
+    "defaultBranch":"main",
+    "author":"wqkeenan",
+    "topics":["unciv-mod","unciv-mod-rulesets"],
+    "constants":{
+        "maxXPfromBarbarians":45,
+        "ancientRuinCountMultiplier": 0.04,
+        "naturalWonderCountMultiplier": 0.2,
+        "naturalWonderCountAddedConstant": 0.5
+    }
+}

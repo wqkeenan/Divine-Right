@@ -174,9 +174,15 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
+		"name": "Sovereign",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Cannot be traded"
+		]
+	},
+	{
 		"name": "Mead",
 		"resourceType": "Strategic",
-		"culture": 1,
 		"uniques": [
 			"Cannot be traded"
 		]
@@ -198,7 +204,14 @@
 		]
 	},
 	{
-		"name": "Spells",
+		"name": "Apprentice",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Cannot be traded"
+		]	
+	},	
+	{
+		"name": "Scrolls",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Cannot be traded"

@@ -13,7 +13,9 @@
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [1] [Mead] <after discovering [Fermentation]>" 
+			"Provides [1] [Sovereign]",
+			"Provides [1] [Mead] <after discovering [Fermentation]>",			
+			"Provides [1] [Apprentice] <after discovering [Channeling]>"
 		]
 	},
 	{
@@ -52,16 +54,15 @@
 	{
 		"name": "Tavern",
 		"requiredNearbyImprovedResources": ["Honey"],
-		"happiness": 1,
+		"culture": 2,
 		"cost": 75,
 		"specialistSlots": {"Bard": 1},
 		"hurryCostModifier": 10,
 		"maintenance": 1,
 		"requiredTech": "Fermentation",
 		"uniques": [ 
-			"Provides [1] [Mead]",
 			"[+1 Happiness] <after discovering [Technomancy]>",
-			"[+2 Culture] <after discovering [Technomancy]>",
+			"[+1 Culture] <after discovering [Technomancy]>",
 			"[+1 Gold] from [Honey] tiles [in this city]",
 			"[+1 Gold] from [Wine] tiles [in this city]",
 			"New [Heroic] units start with [15] XP [in this city] <after discovering [Technomancy]>",
@@ -138,6 +139,28 @@
 		"maintenance": 1,
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Technomancy"
+	},
+	{
+		"name": "Seer",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Consumes [1] [Mana]", 
+			"Provides [1] [Prentice]", 
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Technomancy"
+	},
+	{
+		"name": "Arcane Academy",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Consumes [2] [Mana]", 
+			"Provides [2] [Prentice]", 
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Technomancy"
@@ -248,6 +271,8 @@
 	},
 
 	// Classical Era
+
+
 
 	// Column 3
 

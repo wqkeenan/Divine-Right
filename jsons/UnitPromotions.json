@@ -1,24 +1,179 @@
 [
     {
         "name": "Heal Instantly",
+        "unitTypes": ["Sword","Archery","Mounted","Siege","Hero","Magical","Undead","Monster","Melee Water","Ranged Water","Sea Serpent"],
+        "row": 0,
+        "column": 0,
         "uniques": [
             "[This Unit] heals [50] HP",
             "Doing so will consume this opportunity to choose a Promotion"
-        ],
-        "unitTypes": ["Sword","Archery","Mounted","Siege","Hero","Magical","Magical Flying","Undead","Monster","Monster Air","Melee Water","Ranged Water","Sea Serpent"],
-        "row": 0,
-        "column": 0
+        ]
     },
     {
-        "name": "Magic Armor",
-        "unitTypes":["Hero"]
+        "name": "Veteran I",
+        "unitTypes": ["Sword","Archery","Mounted","Siege","Hero","Magical","Undead","Monster","Melee Water","Ranged Water","Sea Serpent"],
+        "row": 1,
+        "column": 0,
+        "uniques": [
+            "[+15]% Strength bonus"
+        ]
     },
     {
-        "name": "Ignore terrain cost",
+        "name": "Veteran II",
+        "prerequisites": ["Veteran I"],
+        "unitTypes": ["Sword","Archery","Mounted","Siege","Hero","Magical","Undead","Monster","Melee Water","Ranged Water","Sea Serpent"],
+        "row": 1,
+        "column": 1,
+        "uniques": [
+            "[+10]% Strength bonus",
+            "Can move after attacking"
+        ]
+    },
+    {
+        "name": "Veteran III",
+        "prerequisites": ["Veteran II"],
+        "unitTypes": ["Sword","Archery","Mounted","Siege","Hero","Magical","Undead","Monster","Melee Water","Ranged Water","Sea Serpent"],
+        "row": 1,
+        "column": 2,
+        "uniques": [
+            "[+10]% Strength bonus"
+        ]
+    },
+    {
+        "name": "Pathfinder",
+        "unitTypes": ["Sword","Archery","Mounted","Hero","Magical"],
+        "row": 2,
+        "column": 0,
         "uniques": [
             "Ignores terrain cost"
         ]
+    },
+    {
+        "name": "Scouting",
+        "prerequisites": ["Veteran I", "Pathfinder"],
+        "unitTypes": ["Sword","Archery","Mounted","Hero"],
+        "row": 2,
+        "column": 1,
+        "uniques": [
+            "[+1] Sight"
+        ]
+    },
+    {
+        "name": "Swift",
+        "prerequisites": ["Veteran I", "Pathfinder"],
+        "unitTypes": ["Sword","Archery","Mounted","Hero","Magical"],
+        "row": 3,
+        "column": 1,
+        "uniques": [
+            "[+1] Movement"
+        ]
+    },
+    {
+        "name":"Heroic",
+        "prerequisites": ["Veteran I", "Pathfinder"],
+        "unitTypes": ["Sword","Archery","Mounted","Hero"],
+        "row": 6,
+        "column": 2,
+        "uniques": [
+            "No damage penalty for wounded units"
+        ] 
+    },
+    {
+        "name": "Control Winds",
+        "unitTypes": ["Magical"],
+        "uniques": [
+           "[+30]% Strength bonus for [All] units within [2] tiles <vs [Archery] units> <when defending>",
+           "[+70]% Strength bonus <vs [Archery] units> <when defending>",
+           "[+15]% Strength bonus for [All] units within [1] tiles <vs [Siege] units> <when defending>",
+           "[+35]% Strength bonus <vs [Siege] units> <when defending>",
+           "[+15]% Strength bonus for [All] units within [1] tiles <vs [Flying] units> <when defending>",
+           "[+50]% Strength bonus <vs [Flying] units>",
+           "Only available <after discovering [Technomancy]>"
+        ]
+    },
+    {
+        "name": "Counterspell",
+        "unitTypes": ["Magical"],
+        "uniques": [
+           "[-20]% Strength for enemy [Magical] units within [2] tiles",
+           "[+25]% chance to intercept air attacks", 
+           "[1] extra interceptions may be made per turn",
+           "[+60]% Strength bonus <vs [Magical] units>",
+           "Only available <after discovering [Technomancy]>"
+        ]
+    },
+    {
+        "name": "Dimension Door",
+        "unitTypes": ["Magical"],
+        "uniques": [
+           "May Paradrop up to [6] tiles from inside friendly territory",
+           "Withdraws before melee combat <with [50]% chance>",
+           "Only available <after discovering [Technomancy]>"
+        ]
+    },
+    {
+        "name": "Clairvoyant",
+        "unitTypes": ["Magical"],
+        "uniques": [
+           "[+1] Sight",
+           "Can see invisible [All] units",
+           "Ranged attacks may be performed over obstacles",
+           "Only available <after discovering [Technomancy]>"
+        ]
+    },
+    {
+        "name": "Sword of Slaying",
+        "uniques": [
+            "[+75]% Strength bonus <vs [Monster] units>",
+            "[+25]% Strength bonus <vs [Undead] units>",
+            "[+25]% Strength bonus",
+            "Can see invisible [Monster] units",
+            "Can see invisible [Undead] units"
+        ]
+    },
+    {
+        "name": "Radiant Blade",
+        "uniques": [
+            "[+100]% Strength bonus <vs [Undead] units>",
+            "[+30]% Strength bonus <vs [Monster] units>",
+            "[+20]% Strength bonus",
+            "Can see invisible [All] units"
+        ]
+    },
+    {
+        "name": "Magic Armor",
+        "uniques": [
+            "[+25]% Strength bonus <vs [Ranged] units> <when defending>",
+            "[+15]% Strength bonus <when defending>",
+            "[+10]% Strength bonus"
+        ]
+    },
+    {
+        "name":"Regenerative",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action", 
+            "All healing effects doubled"
+        ] 
+    },
+    {
+        "name": "Monarch",
+        "uniques": [
+            "May enter foreign tiles without open borders"
+        ]
+    },
+    {
+        "name": "Flying",
+        "uniques": [
+           "Ignores terrain cost",
+           "Can see over obstacles",
+           "[+1] Sight"
+        ]
     }
+
+
+
+
+
     /*
     // Ranged+Siege
     {

@@ -171,7 +171,80 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
-		/* Great people */
+	{
+		"name": "Mercenary Legion",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 28,
+		"cost": 180,
+		"uniques": [
+			"Can be purchased for [250] [Gold] [in all cities connected to capital]",
+			"[-25]% XP gained from combat",
+			"[-75]% Yield from pillaging tiles",
+			"[+50]% Health from pillaging tiles",
+			"[+100]% maintenance costs",
+			"Unbuildable"
+			],
+		"requiredTech": "Technomancy",
+		"upgradesTo": "Men-at-Arms",
+		"obsoleteTech": "Technomancy",
+		"attackSound": "metalhit"
+
+	},
+
+	/* Heroic */
+	
+	{
+		"name": "Adventurers",
+		"unitType": "Hero",
+		"movement": 2,
+		"strength": 28,
+		"cost": 180,
+		"uniques": [
+			"Consumes [1] [Mead]",
+			"[+10]% XP gained from combat",
+			"[+200]% maintenance costs"
+			],
+		"requiredTech": "Technomancy",
+		"attackSound": "metalhit"
+	},
+
+		/* Spells */
+
+	{
+		"name": "Meteor Swarm",
+		"unitType": "Spell",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 120,
+		"range": 5,
+		"cost": 200,
+		"requiredTech": "Technomancy",
+		"uniques": [
+			"Consumes [3] [Scrolls]",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"Destroys tile improvements when attacking"
+		],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Wirling Vortex",
+		"unitType": "Spell",
+		"movement": 1,
+		"strength": 20,
+		"rangedStrength": 50,
+		"range": 5,
+		"cost": 160,
+		"requiredTech": "Technomancy",
+		"uniques": [
+			"Consumes [1] [Scrolls]",
+			"[+100]% Strength <vs [Flying] units> <when attacking>",
+			"[+50]% Strength <vs Cities> <when attacking>"
+		],
+		"attackSound": "artillery"
+	},
+	
+	/* Great people */
 
 	{
 		"name": "Great Bard",
