@@ -422,17 +422,7 @@
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Technomancy"
 	},
-	{
-		"name": "Forge",
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"requiredNearbyImprovedResources": ["Iron"],
-		"requiredTech": "Metalworking",
-		"uniques": [
-			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Iron] tiles [in this city]"
-		]
-	},
+
 	// Column 6
 	{
 		"name": "Harbor",
@@ -501,8 +491,20 @@
 
 	// Column 15
 
-	// Column 16
+	// Minarian Wonders
 
+	{
+		"name": "The Va-Ka-Ka Alliance",
+		"culture": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": [
+			"Must be next to [Desert]", 
+			"[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]"
+		],
+		"requiredTech": "Technomancy",
+		"quote": ""
+	},
 
 	// Religious buildings
 

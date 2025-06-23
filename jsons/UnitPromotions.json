@@ -69,15 +69,32 @@
         ]
     },
     {
+        "name":"Valiant",
+        "unitTypes": ["Hero"],
+        "row": 6,
+        "column": 1,
+        "uniques": [
+            "No damage penalty for wounded units",
+            "[+100]% Strength <vs [Monster] units>"
+        ] 
+    },
+    {
         "name":"Heroic",
-        "prerequisites": ["Veteran I", "Pathfinder"],
+        "prerequisites": ["Veteran I", "Pathfinder","Courageous"],
         "unitTypes": ["Sword","Archery","Mounted","Hero"],
         "row": 6,
         "column": 2,
         "uniques": [
-            "No damage penalty for wounded units"
+            "No damage penalty for wounded units",
+            "Ignores Zone of Control",
+            "Withdraws before melee combat <when below [30] HP> <with [50]% chance>",
+            "Can be earned through combat"
         ] 
     },
+
+
+
+    // Magical promotions 
     {
         "name": "Control Winds",
         "unitTypes": ["Magical"],
@@ -95,7 +112,7 @@
         "name": "Counterspell",
         "unitTypes": ["Magical"],
         "uniques": [
-           "[-20]% Strength for enemy [Magical] units within [2] tiles",
+           "[-20]% Strength bonus for enemy [Magical] units within [2] tiles",
            "[+25]% chance to intercept air attacks", 
            "[1] extra interceptions may be made per turn",
            "[+60]% Strength <vs [Magical] units>",
@@ -131,6 +148,8 @@
             "Can see invisible [Undead] units"
         ]
     },
+
+    // Magical items
     {
         "name": "Radiant Blade",
         "uniques": [
