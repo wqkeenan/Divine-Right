@@ -69,21 +69,35 @@
         ]
     },
     {
+        "name":"Battle Hardened",
+        "prerequisites": ["Veteran II", "Heroic"],
+        "unitTypes": ["Sword","Archery","Mounted","Hero","Magical"],
+        "row": 6,
+        "column": 5,
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action",
+            "May heal outside of friendly territory",
+            "Can be earned through combat"
+        ] 
+    },
+
+    {
         "name":"Valiant",
         "unitTypes": ["Hero"],
         "row": 6,
         "column": 1,
         "uniques": [
             "No damage penalty for wounded units",
-            "[+100]% Strength <vs [Monster] units>"
+            "[+100]% Strength <vs [Monster] units>",
+            "[+10]% XP gained from combat"
         ] 
     },
     {
         "name":"Heroic",
-        "prerequisites": ["Veteran I", "Pathfinder","Courageous"],
-        "unitTypes": ["Sword","Archery","Mounted","Hero"],
+        "prerequisites": ["Veteran II", "Valiant"],
+        "unitTypes": ["Sword","Mounted","Hero"],
         "row": 6,
-        "column": 2,
+        "column": 4,
         "uniques": [
             "No damage penalty for wounded units",
             "Ignores Zone of Control",
@@ -91,10 +105,49 @@
             "Can be earned through combat"
         ] 
     },
+    {
+        "name":"Swordmaster",
+        "prerequisites": ["Veteran II", "Heroic"],
+        "unitTypes": ["Hero"],
+        "row": 6,
+        "column": 5,
+        "uniques": [
+            "[1] additional attacks per turn",
+            "Can be earned through combat"
+        ] 
 
-
+    },
+	{
+		"name": "Extended Range",
+		"prerequisites": ["Veteran III"],
+		"unitTypes": ["Archery","Siege","Ranged Water"],
+        "column": 3,
+        "row": 3,
+    	"uniques": [
+            "[+1] Range",
+           "Only available <after discovering [Technomancy]>"
+        ]
+	},           
 
     // Magical promotions 
+	{
+		"name": "Magic Wand",
+		"prerequisites": ["Veteran II"],
+		"unitTypes": ["Magical"],
+    	"uniques": [
+           "[+1] Range",
+           "Only available <after discovering [Technomancy]>"
+        ]
+	},
+	{
+		"name": "Spell Book",
+		"prerequisites": ["Veteran II"],
+		"unitTypes": ["Magical"],
+    	"uniques": [
+           "Can carry [2] extra [Spell] units",
+           "Only available <after discovering [Technomancy]>"
+        ]
+	},
     {
         "name": "Control Winds",
         "unitTypes": ["Magical"],
@@ -120,11 +173,12 @@
         ]
     },
     {
-        "name": "Dimension Door",
+        "name": "Portaling",
         "unitTypes": ["Magical"],
         "uniques": [
            "May Paradrop up to [6] tiles from inside friendly territory",
-           "Withdraws before melee combat <with [50]% chance>",
+           "Withdraws before melee combat <with [75]% chance>",
+           "Ignores Zone of Control",
            "Only available <after discovering [Technomancy]>"
         ]
     },
@@ -138,6 +192,8 @@
            "Only available <after discovering [Technomancy]>"
         ]
     },
+
+    // Magical items
     {
         "name": "Sword of Slaying",
         "uniques": [
@@ -148,8 +204,6 @@
             "Can see invisible [Undead] units"
         ]
     },
-
-    // Magical items
     {
         "name": "Radiant Blade",
         "uniques": [
@@ -163,8 +217,29 @@
         "name": "Magic Armor",
         "uniques": [
             "[+25]% Strength <vs [Ranged] units> <when defending>",
+            "[+40]% Strength <vs [Magical] units> <when defending>",
             "[+15]% Strength <when defending>",
             "[+10]% Strength"
+        ]
+    },
+    {
+        "name": "Boots of Stealth",
+        "uniques": [
+            "[+20]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
+            "Ignores Zone of Control",
+            "Invisible to non-adjacent units"
+        ]
+    },
+
+ // Special promotions   
+
+    {
+        "name":"Mercenary",
+        "uniques": [
+			"[-25]% XP gained from combat",
+			"[-75]% Yield from pillaging tiles",
+			"[+50]% Health from pillaging tiles",
+			"[+100]% maintenance costs"
         ]
     },
     {
@@ -175,7 +250,7 @@
         ] 
     },
     {
-        "name": "Monarch",
+        "name": "Right of Passage",
         "uniques": [
             "May enter foreign tiles without open borders"
         ]

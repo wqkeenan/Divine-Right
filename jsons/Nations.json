@@ -18,7 +18,7 @@
 		"outerColor": [85, 85, 85],
 		"innerColor": [126, 192, 253],
 		"uniqueName": "Sea people",
-		"uniques": ["[+30]% Strength <vs [City-States]>", "[+1] Movement <for [Water] units>"],
+		"uniques": ["Gain a free [Harbor] [in all coastal cities]", "[+1] Movement <for [Water] units>"],
 		"cities": ["Colist","Boliske","Boran","Addat","Gakstette","Flargan","Ambert","Malrith","Eastdale","Greyridge","Ledo","Moxfield","Toling","Izloria","Kallis","Crotona","Didum"]
 	},
 	{

@@ -177,32 +177,73 @@
 		"movement": 2,
 		"strength": 28,
 		"cost": 180,
+		"promotions": ["Mercenary"],		
 		"uniques": [
-			"Can be purchased for [250] [Gold] [in all cities connected to capital]",
-			"[-25]% XP gained from combat",
-			"[-75]% Yield from pillaging tiles",
-			"[+50]% Health from pillaging tiles",
-			"[+100]% maintenance costs",
+			"Can be purchased for [400] [Gold] [in all cities connected to capital]",
 			"Unbuildable"
 			],
 		"requiredTech": "Technomancy",
 		"upgradesTo": "Men-at-Arms",
 		"obsoleteTech": "Technomancy",
 		"attackSound": "metalhit"
-
 	},
 
 	/* Heroic */
 	
 	{
-		"name": "Adventurers",
+		"name": "Chieftain",
 		"unitType": "Hero",
-		"movement": 2,
-		"strength": 28,
+		"movement": 3,
+		"strength": 12,
+		"cost": 90,
+		"promotions": ["Right of Passage"],
+		"uniques": [
+			"Consumes [1] [Sovereign]",
+			"[+100]% maintenance costs"
+			],
+		"requiredTech": "Tribal Law",
+		"upgradesTo": "Monarch",
+		"obsoleteTech": "Technomancy",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Monarch",
+		"unitType": "Hero",
+		"movement": 3,
+		"strength": 20,
 		"cost": 180,
+		"promotions": ["Right of Passage"],
+		"uniques": [
+			"Consumes [1] [Sovereign]",
+			"[+200]% maintenance costs"
+			],
+		"requiredTech": "Technomancy",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Champion",
+		"unitType": "Hero",
+		"movement": 3,
+		"strength": 16,
+		"cost": 180,
+		"promotions": [""],
 		"uniques": [
 			"Consumes [1] [Mead]",
-			"[+10]% XP gained from combat",
+			"[+100]% maintenance costs"
+			],
+		"requiredTech": "Fermentation",
+		"upgradesTo": "Adventurers",
+		"obsoleteTech": "Technomancy",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Adventurers",
+		"unitType": "Hero",
+		"movement": 3,
+		"strength": 28,
+		"cost": 300,
+		"uniques": [
+			"Consumes [1] [Mead]",
 			"[+200]% maintenance costs"
 			],
 		"requiredTech": "Technomancy",

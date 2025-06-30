@@ -217,12 +217,16 @@
 		"requiredTech": "Technomancy"
 	},
 	{
-		"name": "Conclave",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"name": "Arcane Tomes",
+		"isNationalWonder": true,
+		"requiredNearbyImprovedResources": ["Ancient Ruins"],
+		"requiredBuilding": "Library",
+		"science": 3,
+		"greatPersonPoints": {"Great Sage": 2},
+		"cost": 200,
 		"uniques": [
 			"New [Magical] units start with [15] XP [in this city]", 
-			"Destroyed when the city is captured"
+			"Cannot be purchased"
 		],
 		"requiredTech": "Technomancy"
 	},
@@ -269,31 +273,43 @@
 	{
 		"name": "Catacombs",
 		"maintenance": 0,
-		"uniques": [ "[+15]% Production when constructing [Undead] units [in this city]"],
-		"happiness": 2,
+		"happiness": 1,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
+		"uniques": [ 
+			"[+15]% Production when constructing [Undead] units [in this city]"
+		],
 		"requiredTech": "Rituals"
 	},
 	{
 		"name": "Arena",
 		"maintenance": 1,
-		"uniques": [ "[+15]% Production when constructing [Beast] units [in this city]"],
 		"happiness": 2,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 10,
+		"uniques": [ 
+			"[+1 Gold] from [Ivory] tiles [in this city]",
+			"[+1 Gold] from [Horses] tiles [in this city]"
+		],
 		"requiredTech": "Construction"
 	},
 	{
-		"name": "Green Dragon Inn",
+		"name": "Gilded Griffin Inn",
 		"culture": 2,
+		"happiness": 1,
 		"cityHealth": 40,
+		"cost": 300,
 		"isWonder": true,
 		"uniques": [
-			"Provides [1] [Mead]", 
+			"Provides [2] [Mead]", 
 			"Gain a free [Tavern] [in this city]",
 			"New [Heroic] units start with [15] XP [in this city]"],
-		"requiredTech": "Technomancy",
-		"quote": "From everywhere adventurers are attracted to this legendary inn attracts to share experience, recruit, and of course, drink mead."
+		"requiredTech": "Trade",
+		"quote": "They say all legends are born over a flagon of mead. If that's true, then The Gilded Griffin is the cradle of every hero's tale.",
+		"civilopediaText": [
+			{
+				"text": "From everywhere adventurers are attracted to this legendary inn attracts to share experience, recruit, and of course, drink mead."
+			}
+		]
 	},
 
 // Column 2

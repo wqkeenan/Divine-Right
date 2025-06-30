@@ -127,27 +127,27 @@
 				"quote": "'It is a most beautiful instrument. There is no doubt that the telescope will reveal countless things.' - Johannes Kepler"
 			},
 			{
-				"name": "Excavation",
+				"name": "Ruin Excavation",
 				"row": 2,
-				"prerequisites": ["Writing","Mining"],
-				"quote": "'The past is not dead; it is not even past.' - William Faulkner" 
+				"prerequisites": ["Mining"],
+				"quote": "'The sands of time have buried many secrets, but they cannot hide them from those who know how to listen.' - A lost journal entry" 
 			},			
 			{
 				"name": "Landholding",
 				"row": 3,
 				"prerequisites": ["Writing","Animal Husbandry"],
-				"quote": "'His seized his weapon, which the panther and lion fells in the night time cruelly. He captured the wild mountain goats. The panther he conquered.' - The Epic of Gilgamesh"
+				"quote": "'A noble's worth is measured not by the gold in his treasury, but by the fertile soil in his fields and the loyalty of his people.' - The wizard Shardenzar"
 			},
 			{
 				"name": "Hermetics",
 				"row": 4,
 				"prerequisites": ["Hunting","Rituals"],
-				"quote": "" 
+				"quote": "'The apothecary's art is a dance between nature's wisdom and the mortal hand. Every pinch of herb, every drop of essence, holds the power to heal or to harm. Balance is all.' - An old master herbalist" 
 			},
 			{
 				"name": "Trade",
 				"row": 5,
-				"prerequisites": ["Hunting","The Wheel"],
+				"prerequisites": ["The Wheel"],
 				"quote": "'Commerce is the cure for the most destructive prejudices.' - Voltaire" 
 			},						
 			{
@@ -172,8 +172,38 @@
 		"wonderCost": 250,
 		"techs": [
             {
-                "name": "Aetheric Cartography", 
+                "name": "Aetheric Insight", 
                 "row": 4,
+                "prerequisites": ["Translation"],
+                "quote": "'To map the currents of the unseen, one must first learn to read the whispers of the hidden world.' - Ancient Arcanist Proverb",
+				"uniques": [
+					"Only available <if [Arcane Tomes] is constructed>"
+				]
+            },
+		    {
+                "name": "Aetheric Cartography", 
+                "row": 8,
+                "prerequisites": ["Writing"],
+                "quote": "'To map the currents of the unseen, one must first learn to read the whispers of the hidden world.' - Ancient Arcanist Proverb"
+            }
+		]
+	},
+    {
+		"columnNumber": 6,
+		"era": "Discovery era",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+            {
+                "name": "Channeling", 
+                "row": 4,
+                "prerequisites": ["Aetheric Insight"],
+                "quote": "'To map the currents of the unseen, one must first learn to read the whispers of the hidden world.' - Ancient Arcanist Proverb"
+            },
+		    {
+                "name": "", 
+                "row": 8,
                 "prerequisites": ["Writing"],
                 "quote": "'To map the currents of the unseen, one must first learn to read the whispers of the hidden world.' - Ancient Arcanist Proverb"
             }
