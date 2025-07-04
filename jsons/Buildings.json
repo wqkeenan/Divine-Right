@@ -94,6 +94,7 @@
 		"maintenance": 1,
 		"requiredTech": "Fermentation",
 		"uniques": [ 
+			"[10]% Food is carried over after population increases [in this city]",
 			"[+1 Culture] <after discovering [Technomancy]>",
 			"[+1 Science] from [Spices] tiles [in this city]",
 			"[+1 Science] from [Truffles] tiles [in this city]",
@@ -300,14 +301,16 @@
 		"cost": 300,
 		"isWonder": true,
 		"uniques": [
-			"Provides [2] [Mead]", 
+			"Provides [1] [Mead]", 
 			"Gain a free [Tavern] [in this city]",
-			"New [Heroic] units start with [15] XP [in this city]"],
+			"[+15]% Production when constructing [Hero] units [in this city]",
+			"New [Hero] units start with [15] XP [in this city]"
+		],
 		"requiredTech": "Trade",
 		"quote": "They say all legends are born over a flagon of mead. If that's true, then The Gilded Griffin is the cradle of every hero's tale.",
 		"civilopediaText": [
 			{
-				"text": "From everywhere adventurers are attracted to this legendary inn attracts to share experience, recruit, and of course, drink mead."
+				"text": "From all corners of Minaria adventurers are drawn to this legendary inn — to share their tales, seek stout-hearted companions, and, aye, to drink deep of mead."
 			}
 		]
 	},
@@ -345,11 +348,27 @@
 
 	{
 		"name": "City Watch",
+		"maintenance": 2,
+		"happiness": 2,
+		"cityHealth": 30,
+		"cost": 80,
+		"hurryCostModifier": 50,
+		"uniques": [
+			"Can only be built <in {non-[Annexed]} cities>", 
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Technomancy"
+	},
+	{
+		"name": "Peacekeepers",
 		"maintenance": 4,
+		"cityHealth": 50,
+		"cost": 120,
 		"hurryCostModifier": 50,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
-			"Can only be built <in [Annexed] cities>"
+			"Can only be built <in [Annexed] cities>", 
+			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Technomancy"
 	},
@@ -511,7 +530,7 @@
 
 	{
 		"name": "The Va-Ka-Ka Alliance",
-		"culture": 3,
+		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": [
@@ -521,6 +540,48 @@
 		"requiredTech": "Technomancy",
 		"quote": ""
 	},
+	{
+		"name": "Settle the Wandering People",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Bard": 2},
+		"uniques": [
+			"Creates a [Ercii village] improvement on a specific tile", 
+			"[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]"
+		],
+		"requiredTech": "Technomancy",
+		"quote": ""
+	},
+	{
+		"name": "Spinning Wheel",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Bard": 2},
+		"uniques": [
+			"Only available <if [Settle the Wandering People] is constructed>",
+			"[+1 Gold] from [Farm] tiles [in this city]", 
+			"[+2 Gold] from [Wheat] tiles [in this city]",
+			"Provides [1] [Gold Ore]"
+		],
+		"requiredTech": "Technomancy",
+		"quote": ""
+	},
+
+	
+	{
+		"name": "Reiken Trade Route",
+		"culture": 2,
+		"gold": 5,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": [
+			"Must be next to [Coast]", 
+			"[+2 Gold] from each Trade Route [in this city]",
+			"Provides [2] [Hardwoods]",
+			"Provides [1] [Ivory]"
+		],
+		"requiredTech": "Technomancy",
+		"quote": ""				
+	}
 
 	// Religious buildings
 

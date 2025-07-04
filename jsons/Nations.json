@@ -74,7 +74,6 @@
 		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
 		"cities": ["Adeese","Khurdul","Zefnar","Jipolis","Zhomond","Idosall","Malrith","Kaeham","Phostar","Yrens","Okross","Ninah","Shekhit","Kirnah","Caripasa"] 
 	},
-
 	{
 		"name": "Immer",
 		"leaderName": "Euwint of the Marshes",
@@ -91,6 +90,40 @@
 		"uniqueName": "Purification",
 		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
 		"cities": ["Altarr","Muscaster","Lone Wirzor","The Gap","Gorpin","Conodras","Wandermere","Slego","Grinard","Alphoria","Belgate","Arnham","Polford","Braken","Vetera","Caledon"]
+	},
+	{
+		"name": "Pon",
+		"leaderName": "Archduke Luppi the Proud,",
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text",
+		"declaringWar": "It is in  my Intentions to spread the word of Nod into your land.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "I see for the black hand has been unworthy to serve Kane.",
+		"introduction": "If you would stay out of our way then you might live to tell your tale.",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [77, 77, 77],
+		"innerColor": [245, 184, 0],
+		"uniqueName": "Ponese",
+		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
+		"cities": ["Marzabol","Split Rock","Crows Nest","Heap","","","","","","","","","","",""]
+	},
+	{
+		"name": "Rombune",
+		"leaderName": "Queen Secora the Black",
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text",
+		"declaringWar": "It is in  my Intentions to spread the word of Nod into your land.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "I see for the black hand has been unworthy to serve Kane.",
+		"introduction": "If you would stay out of our way then you might live to tell your tale.",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [77, 77, 77],
+		"innerColor": [245, 184, 0],
+		"uniqueName": "Purification",
+		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
+		"cities": ["The Golkus","Thores","Parros","","","","","","","","","","","","",""]
 	},
 	{
 		"name": "Zorn",
@@ -114,7 +147,10 @@
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [130, 224, 16],
 		"innerColor": [53, 99, 0],
-		"cities": ["The Stone Face"]
+		"cities": ["The Stone Face"],
+		"uniques": [
+			"[{Military}] units gain the [Regenerative] promotion"
+		]
 	},
 	{
 		"name": "Neuth",

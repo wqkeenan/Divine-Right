@@ -49,6 +49,16 @@
         ]
     },
     {
+        "name": "Mountaineer",
+        "unitTypes": ["Sword","Hero"],
+        "row": 2,
+        "column": 0,
+        "uniques":[
+            "Can pass through impassable tiles <in [Mountain] tiles>",
+            "Double movement in [Hill]"
+        ]
+    },
+    {
         "name": "Scouting",
         "prerequisites": ["Veteran I", "Pathfinder"],
         "unitTypes": ["Sword","Archery","Mounted","Hero"],
@@ -80,7 +90,6 @@
             "Can be earned through combat"
         ] 
     },
-
     {
         "name":"Valiant",
         "unitTypes": ["Hero"],
@@ -115,7 +124,6 @@
             "[1] additional attacks per turn",
             "Can be earned through combat"
         ] 
-
     },
 	{
 		"name": "Extended Range",
@@ -258,9 +266,12 @@
     {
         "name": "Flying",
         "uniques": [
+           "[+1] Sight",
            "Ignores terrain cost",
            "Can see over obstacles",
-           "[+1] Sight"
+           "No defensive terrain bonus",
+           "Eliminates combat penalty for attacking over a river", 
+		   "Eliminates combat penalty for attacking across a coast"
         ]
     }
 

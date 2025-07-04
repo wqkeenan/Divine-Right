@@ -13,8 +13,12 @@
     },
     {
         "name": "Mounted",
-        "movementType": "Land"
-    }, 
+        "movementType": "Land",
+         "uniques": [
+            "[-25]% Strength <vs [Monster] units>", 
+            "[+25]% maintenance costs"
+        ]
+   }, 
     {
         "name": "Siege",
         "movementType": "Land"

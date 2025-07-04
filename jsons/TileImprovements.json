@@ -23,7 +23,7 @@
 	},
 	{
 		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hill"],
+		"terrainsCanBeBuiltOn": ["Hill","Mountain"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
@@ -224,8 +224,8 @@
             "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
-		"name": "Lord's Manor",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"name": "Lord's manor",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Flood plains"],
 		"gold": 3,
 		"food": 1,
 		"production": 1,
@@ -235,6 +235,21 @@
 			"Will not be replaced by automated units", 
 			"Gain control over [all] tiles in a [1]-tile radius", 
 			"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Ercii village",
+		"terrainsCanBeBuiltOn": ["Grassland"],
+		"culture": 2,
+		"production": 2,
+		"gold": 3,
+		"happiness": 1,
+		"uniques": ["Great Improvement", 
+			"[+1 Food] <after discovering [Technomancy]>", 
+			"Removes removable features when built",
+			"Will not be replaced by automated units", 
+			"Pillaging this improvement yields approximately [+40 Gold]",
+			"Destroyed when pillaged"
+		]
 	},
 	{
 		"name": "Holy site",

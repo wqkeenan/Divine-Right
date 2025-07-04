@@ -112,7 +112,8 @@
 		"food": 2,
 		"gold": 1,
 		"RGB": [0, 171, 169],
-		"uniques": ["Fresh water",
+		"uniques": [
+			"Fresh water",
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations"],
         "civilopediaText": [
@@ -126,22 +127,43 @@
 	{
 		"name": "Mountain",
 		"type": "Land",
+		"production": 1,
+		"movementCost": 6,
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [102, 102, 102],
-		"uniques": ["Rough terrain",
+		"uniques": [
+			"Rough terrain",
 			"Has an elevation of [2] for visibility calculations",
 			"Occurs in chains at high elevations",
-			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
-			"Considered [Undesirable] when determining start locations"]
+			"Considered [Undesirable] when determining start locations",
+			"Only [Mine] improvements may be built on this tile"
+		]
+	},
+	{
+		"name": "Scenic",
+		"type": "Land",
+		"movementCost": 6,
+		"impassable": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"RGB": [102, 102, 102],
+		"uniques": [
+			"Rough terrain",
+			"Doesn't generate naturally",
+			"Has an elevation of [1] for visibility calculations",
+			"[+1] to Fertility for Map Generation",
+			"Considered [Desirable] when determining start locations"
+		]
 	},
 	{
 		"name": "Snow",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [230, 238, 255],
-		"uniques": ["Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+		"uniques": [
+			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
 			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
 			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
 			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
@@ -150,9 +172,9 @@
 			"Considered [Undesirable] when determining start locations",
 			"Becomes [Tundra] when adjacent to [River]",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Never receives any resources <in [Hill] tiles>"]
+			"Never receives any resources <in [Hill] tiles>"
+		]
 	},
-
 	// Terrain features
 	{
 		"name": "Hill",
@@ -163,7 +185,8 @@
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
-		"uniques": ["Rough terrain",
+		"uniques": [
+			"Rough terrain",
 			"[+5] Strength for cities built on this terrain",
 			"Has an elevation of [1] for visibility calculations",
 			"Occurs in groups around high elevations",
@@ -173,7 +196,8 @@
 			"Starts in regions of this type receive an extra [Sheep]",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
-			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
+			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
 	},
 	{
 		"name": "Forest",
@@ -186,10 +210,10 @@
 		"defenceBonus": 0.25,
 		"occursOn": ["Tundra","Plains","Grassland","Hill"],
 		"uniques": [
-			"Rough terrain", "Vegetation",
+			"Rough terrain", 
+			"Vegetation",
 			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",
-			"[25]% Chance to be destroyed by nukes",
 			"A Region is formed with at least [30]% [Forest] tiles, with priority [3]",
 			"A Region is formed with at least [35]% [Forest] tiles and [Jungle] tiles, with priority [3]",
 			"A Region can not contain more [Jungle] tiles than [Forest] tiles",
@@ -211,7 +235,8 @@
 		"defenceBonus": 0.25,
 		"occursOn": ["Plains","Grassland"],
 		"uniques": [
-			"Rough terrain", "Vegetation",
+			"Rough terrain", 
+			"Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"[-1] to Fertility for Map Generation",
@@ -231,7 +256,8 @@
 		"unbuildable": true,
 		"defenceBonus": -0.15,
 		"occursOn": ["Grassland"],
-		"uniques": ["Rare feature",
+		"uniques": [
+			"Rare feature",
 			"[-2] to Fertility for Map Generation",
 			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
@@ -256,11 +282,14 @@
 		"unbuildable": true,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
-		"uniques": ["Fresh water", "Rare feature",
+		"uniques": [
+			"Fresh water", 
+			"Rare feature",
 			"Only [All Road] improvements may be built on this tile",
 			"Always Fertility [4] for Map Generation",
 			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"],
+			"Considered [Desirable] when determining start locations"
+		],
         "civilopediaText": [
             {"text": "Oases provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Lakes)."},
             {"text": "Rivers", "link":"Terrain/River"},
@@ -276,9 +305,11 @@
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
-		"uniques": ["Always Fertility [5] for Map Generation",
+		"uniques": [
+			"Always Fertility [5] for Map Generation",
 			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"]
+			"Considered [Desirable] when determining start locations"
+		]
 	},
 	{
 		"name": "Ice",
@@ -286,9 +317,11 @@
 		"impassable": true,
 		"overrideStats": true,
 		"occursOn": ["Ocean", "Coast"],
-		"uniques": ["Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
+		"uniques": [
+			"Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
 			"[-1] to Fertility for Map Generation",
-			"Considered [Undesirable] when determining start locations"]
+			"Considered [Undesirable] when determining start locations"
+		]
 	},
 	{
 		"name": "Atoll",
@@ -297,7 +330,9 @@
 		"food": 1,
 		"production": 1,
 		"occursOn": ["Coast"],
-		"uniques": ["Rare feature"]
+		"uniques": [
+			"Rare feature"
+		]
 	},
 
     // Virtual River entry, used for stats, Uniques and Civilopedia
@@ -390,7 +425,7 @@
 			"Must be adjacent to [3] to [6] [Elevated] tiles",
 			"Must be adjacent to [0] to [3] [Desert] tiles",
 			"Must be adjacent to [0] to [3] [Tundra] tiles"],
-		"turnsInto": "Mountain",
+		"turnsInto": "Scenic",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
@@ -420,13 +455,18 @@
 		"turnsInto": "Lakes",
 		"impassable": true,
 		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+		"uniques": [
+			"Fresh water",
+			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] to [4] [Mountain] tiles",
 			"Must be adjacent to [3] to [6] [Elevated] tiles",
 			"Must be adjacent to [0] to [2] [Desert] tiles",
 			"Must be adjacent to [0] to [1] [Tundra] tiles",
-			"Fresh water",
-			"Tile provides yield without assigned population"],
+			"Tile provides yield without assigned population"
+		],
+		"turnsInto": "Lakes",
+		"impassable": true,
+		"unbuildable": true,
 		"weight": 1
 	},
 	{
@@ -441,7 +481,7 @@
 			"Must be adjacent to [2] to [6] [Hill] tiles",
 			"Must be adjacent to [0] to [2] [Mountain] tiles"
 		],
-		"turnsInto": "Mountain",
+		"turnsInto": "Scenic",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
@@ -460,7 +500,7 @@
 			"Neighboring tiles will convert to [Marsh]",
 			"Occurs on latitudes from [5] to [50] percent of distance equator to pole"
 		],
-		"turnsInto": "Mountain",
+		"turnsInto": "Scenic",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
@@ -475,8 +515,8 @@
 			"Must be adjacent to [0] [Ice] tiles",
 			"Neighboring tiles will convert to [Coast]"
 		],
-		"turnsInto": "Mountain",
-		"impassable": true,
+		"turnsInto": "Scenic",
+		"impassable": false,
 		"unbuildable": true,
 		"weight": 5
 	},
@@ -487,7 +527,8 @@
 		"gold": 3,
 		"culture": 2,
 		"occursOn": ["Grassland","Plains"],
-		"uniques": ["Must be adjacent to [1] [Coast] tiles",
+		"uniques": [
+			"Must be adjacent to [1] [Coast] tiles",
 			"Must be adjacent to [1] to [4] [Grassland] tiles", 
 			"Must be adjacent to [0] to [4] [Plains] tiles", 
 			"Must be adjacent to [0] [Tundra] tiles", 
@@ -505,7 +546,8 @@
 		"name": "Faces to the Sea",
 		"type": "NaturalWonder",
 		"food": 3,
-		"culture": 4,
+		"culture": 3,
+		"gold": 1,
 		"occursOn": ["Grassland"],
 		"uniques": [
 			"Must be adjacent to [2] to [4] [Coast] tiles",
@@ -518,11 +560,13 @@
 	{
 		"name": "Tombs of Olde",
 		"type": "NaturalWonder",
-		"gold": 10,
+		"gold": 6,
 		"occursOn": ["Plains","Desert"],
-		"uniques": ["Must be adjacent to [0] to [2] [Coast] tiles",
-			"Must be adjacent to [2] to [6] [Desert] tiles"],
-		"turnsInto": "Desert",
+		"uniques": [
+			"Must be adjacent to [0] to [2] [Coast] tiles",
+			"Must be adjacent to [2] to [6] [Desert] tiles"
+		],
+		"turnsInto": "Scenic",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 5
@@ -539,7 +583,7 @@
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
 			"Must be adjacent to [0] to [4] [Elevated] tiles"
 		],
-		"turnsInto": "Mountain",
+		"turnsInto": "Scenic",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10

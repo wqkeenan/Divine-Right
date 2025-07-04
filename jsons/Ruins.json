@@ -57,7 +57,10 @@
     {
         "name": "free technology",
         "notification": "A free technology has been discovered in the ruins!",
-        "uniques": ["[1] free random researchable Tech(s) from the [Tribal Era]", "Only available <after turn number [10]>"]
+        "uniques": [
+            "[1] free random researchable Tech(s) from the [Tribal Era]", 
+            "Only available <after turn number [10]>"
+        ]
     },
     {
         "name": "free [Great Bard]", 

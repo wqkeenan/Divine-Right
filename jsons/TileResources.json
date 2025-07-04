@@ -448,18 +448,6 @@
 					"Generated near City States with weight [15]"]
 	},
 	{
-		"name": "Jewelry",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Can only be created by Mercantile City-States"]
-	},
-	{
-		"name": "Porcelain",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Can only be created by Mercantile City-States"]
-	},
-	{
 		"name": "Citrus",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
@@ -549,5 +537,24 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
+	},
+	{
+		"name": "Hardwoods",
+		"resourceType": "Luxury",
+		"gold": 1,
+		"production": 1,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+		{
+		"name": "Jewelry",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Porcelain",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
 	}
 ]
