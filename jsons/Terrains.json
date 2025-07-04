@@ -533,9 +533,10 @@
 			"Must be adjacent to [0] to [4] [Plains] tiles", 
 			"Must be adjacent to [0] [Tundra] tiles", 
 			"Must be adjacent to [0] [Desert] tiles", 
-			"Must be adjacent to [0] [Mountain] tiles" ,
-			"Neighboring tiles will convert to [Coast] <in tiles without [Coast]>",
-			"Neighboring tiles will convert to [Ocean] <in [Coast] tiles>"		
+			"Must be adjacent to [0] [Mountain] tiles",
+			"Neighboring tiles will convert to [Ocean] <in [Coast] tiles>",
+			"Neighboring tiles will convert to [Coast] <in tiles without [Coast]>"
+				
 		],
 		"turnsInto": "Ocean",
 		"impassable": true,
