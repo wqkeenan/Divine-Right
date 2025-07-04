@@ -354,7 +354,7 @@
 		"cost": 80,
 		"hurryCostModifier": 50,
 		"uniques": [
-			"Can only be built <in {non-[Annexed]} cities>", 
+			"Unavailable <in [Annexed] cities>", 
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Technomancy"

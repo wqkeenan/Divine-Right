@@ -467,7 +467,7 @@
 		"turnsInto": "Lakes",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 1
+		"weight": 10
 	},
 	{
 		"name": "Grand Mesa",
@@ -550,8 +550,8 @@
 		"gold": 1,
 		"occursOn": ["Grassland"],
 		"uniques": [
-			"Must be adjacent to [2] to [4] [Coast] tiles",
-			"Must be adjacent to [1] to [4] [Grassland] tiles" 
+			"Must be adjacent to [2] [Coast] tiles",
+			"Must be adjacent to [2] to [4] [Grassland] tiles" 
 		],
 		"turnsInto": "Grassland",
 		"unbuildable": true,

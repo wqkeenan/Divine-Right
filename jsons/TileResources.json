@@ -177,7 +177,8 @@
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",
-			"Cannot be traded"
+			"Cannot be traded",
+			"Excluded from map editor"
 		]
 	},	
 	{
@@ -185,6 +186,7 @@
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",
+			"Excluded from map editor",
 			"Cannot be traded"
 		]
 	},
@@ -192,14 +194,16 @@
 		"name": "Mead",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Cannot be traded"
+			"Cannot be traded",
+			"Excluded from map editor"
 		]
 	},
 	{
 		"name": "Spirit", 
 		"resourceType": "Strategic",
 		"uniques": [
-			"Cannot be traded"
+			"Cannot be traded",
+			"Excluded from map editor"
 		]
 	},
 	{
@@ -215,21 +219,24 @@
 		"name": "Apprentice",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Cannot be traded"
+			"Cannot be traded",
+			"Excluded from map editor"
 		]	
 	},	
 	{
 		"name": "Scrolls",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Cannot be traded"
+			"Cannot be traded",
+			"Excluded from map editor"
 		]	
 	},	
 	{
 		"name": "Arcane Focus",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Cannot be traded"
+			"Cannot be traded",
+			"Excluded from map editor"
 		]		
 	},
 	{
@@ -247,7 +254,7 @@
 					"Minor deposits generated with weight [12] <in [Jungle] tiles>",
 					"Minor deposits generated with weight [8] <in [{Featureless} {Desert}] tiles>"],
 		"majorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
 	},
 
 	// Luxury resources
