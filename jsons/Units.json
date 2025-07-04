@@ -226,7 +226,7 @@
 		"movement": 3,
 		"strength": 16,
 		"cost": 180,
-		"promotions": [""],
+		"promotions": ["Valiant"],
 		"uniques": [
 			"Consumes [1] [Mead]",
 			"[+100]% maintenance costs"
@@ -242,6 +242,7 @@
 		"movement": 3,
 		"strength": 28,
 		"cost": 300,
+		"promotions": ["Valiant"],
 		"uniques": [
 			"Consumes [1] [Mead]",
 			"[+200]% maintenance costs"

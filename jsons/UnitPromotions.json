@@ -52,7 +52,7 @@
         "name": "Mountaineer",
         "unitTypes": ["Sword","Hero"],
         "row": 2,
-        "column": 0,
+        "column": 1,
         "uniques":[
             "Can pass through impassable tiles <in [Mountain] tiles>",
             "Double movement in [Hill]"
@@ -62,7 +62,7 @@
         "name": "Scouting",
         "prerequisites": ["Veteran I", "Pathfinder"],
         "unitTypes": ["Sword","Archery","Mounted","Hero"],
-        "row": 2,
+        "row": 4,
         "column": 1,
         "uniques": [
             "[+1] Sight"
@@ -79,18 +79,6 @@
         ]
     },
     {
-        "name":"Battle Hardened",
-        "prerequisites": ["Veteran II", "Heroic"],
-        "unitTypes": ["Sword","Archery","Mounted","Hero","Magical"],
-        "row": 6,
-        "column": 5,
-        "uniques": [
-            "Unit will heal every turn, even if it performs an action",
-            "May heal outside of friendly territory",
-            "Can be earned through combat"
-        ] 
-    },
-    {
         "name":"Valiant",
         "unitTypes": ["Hero"],
         "row": 6,
@@ -98,7 +86,7 @@
         "uniques": [
             "No damage penalty for wounded units",
             "[+100]% Strength <vs [Monster] units>",
-            "[+10]% XP gained from combat"
+            "[+25]% XP gained from combat <vs [Monster] units>"
         ] 
     },
     {
@@ -115,11 +103,23 @@
         ] 
     },
     {
+        "name":"Battle Hardened",
+        "prerequisites": ["Veteran II", "Heroic"],
+        "unitTypes": ["Sword","Archery","Mounted","Hero","Magical"],
+        "row": 6,
+        "column": 5,
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action",
+            "May heal outside of friendly territory",
+            "Can be earned through combat"
+        ] 
+    },
+    {
         "name":"Swordmaster",
         "prerequisites": ["Veteran II", "Heroic"],
         "unitTypes": ["Hero"],
         "row": 6,
-        "column": 5,
+        "column": 6,
         "uniques": [
             "[1] additional attacks per turn",
             "Can be earned through combat"

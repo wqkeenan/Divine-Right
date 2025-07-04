@@ -165,7 +165,23 @@
 		]
 	},
     {
-		"columnNumber": 4,
+		"columnNumber": 6,
+		"era": "Discovery era",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+
+		    {
+                "name": "Translation", 
+                "row": 8,
+                "prerequisites": ["Writing"],
+                "quote": "'To map the currents of the unseen, one must first learn to read the whispers of the hidden world.' - Ancient Arcanist Proverb"
+            }
+		]
+	},
+    {
+		"columnNumber": 8,
 		"era": "Discovery era",
 		"techCost": 105,
 		"buildingCost": 100,
@@ -199,12 +215,6 @@
                 "name": "Channeling", 
                 "row": 4,
                 "prerequisites": ["Aetheric Insight"],
-                "quote": "'To map the currents of the unseen, one must first learn to read the whispers of the hidden world.' - Ancient Arcanist Proverb"
-            },
-		    {
-                "name": "", 
-                "row": 8,
-                "prerequisites": ["Writing"],
                 "quote": "'To map the currents of the unseen, one must first learn to read the whispers of the hidden world.' - Ancient Arcanist Proverb"
             }
 		]
