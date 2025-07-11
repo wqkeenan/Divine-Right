@@ -231,7 +231,7 @@
 			"Consumes [1] [Mead]",
 			"[+100]% maintenance costs"
 			],
-		"requiredTech": "Fermentation",
+		"requiredTech": "Brewing",
 		"upgradesTo": "Adventurers",
 		"obsoleteTech": "Technomancy",
 		"attackSound": "metalhit"
