@@ -1,0 +1,356 @@
+
+game.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Apothecary
+  rotate: false
+  xy: 1620, 526
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Palace
+  rotate: false
+  xy: 960, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Aether Well
+  rotate: false
+  xy: 1828, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Circle
+  rotate: false
+  xy: 1620, 634
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+CityStateIcons/Circle
+  rotate: false
+  xy: 1620, 634
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+NationIcons/Circle
+  rotate: false
+  xy: 1620, 634
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+OtherIcons/Circle
+  rotate: false
+  xy: 1620, 634
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Circle
+  rotate: false
+  xy: 1620, 634
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+PolicyIcons/Circle
+  rotate: false
+  xy: 1620, 634
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ReligionIcons/Circle
+  rotate: false
+  xy: 1620, 634
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ResourceIcons/Circle
+  rotate: false
+  xy: 1620, 634
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+StatIcons/Circle
+  rotate: false
+  xy: 1620, 634
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+UnitIcons/Circle
+  rotate: false
+  xy: 1620, 634
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Ruins2
+  rotate: false
+  xy: 1176, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Muetar
+  rotate: false
+  xy: 852, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Neuth
+  rotate: false
+  xy: 852, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Scimitars
+  rotate: false
+  xy: 1284, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Spear-and-Shield
+  rotate: false
+  xy: 1392, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The New Movement
+  rotate: false
+  xy: 212, 12
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/axe-and-shield
+  rotate: false
+  xy: 1806, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/bow-and-arrow
+  rotate: false
+  xy: 1914, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/shield
+  rotate: false
+  xy: 1728, 526
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/shield-and-swords
+  rotate: false
+  xy: 1728, 418
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ancient Battlefield
+  rotate: false
+  xy: 420, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ancient-Ruins
+  rotate: false
+  xy: 420, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Mead
+  rotate: false
+  xy: 636, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Sovereign
+  rotate: false
+  xy: 1392, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Excavation
+  rotate: false
+  xy: 528, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Fermentation
+  rotate: false
+  xy: 528, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Hunting
+  rotate: false
+  xy: 1620, 418
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Landholding
+  rotate: false
+  xy: 636, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Metallurgy
+  rotate: false
+  xy: 1620, 310
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Metalworking
+  rotate: false
+  xy: 744, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Necromancy
+  rotate: false
+  xy: 4, 220
+  size: 800, 800
+  orig: 800, 800
+  offset: 0, 0
+  index: -1
+TechIcons/Necromancy2
+  rotate: false
+  xy: 812, 220
+  size: 800, 800
+  orig: 800, 800
+  offset: 0, 0
+  index: -1
+TechIcons/Obelisk2
+  rotate: false
+  xy: 960, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Papyrus
+  rotate: false
+  xy: 1068, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Papyrus2
+  rotate: false
+  xy: 1068, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Runology
+  rotate: false
+  xy: 1176, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Skull2
+  rotate: false
+  xy: 1284, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Tibal Law
+  rotate: false
+  xy: 1620, 202
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Translation
+  rotate: false
+  xy: 1608, 94
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Archers
+  rotate: false
+  xy: 1936, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Infantry
+  rotate: false
+  xy: 4, 12
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Militia
+  rotate: false
+  xy: 744, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Settler
+  rotate: false
+  xy: 1620, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Spearmen
+  rotate: false
+  xy: 1500, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Swordsmen
+  rotate: false
+  xy: 1936, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Spell
+  rotate: false
+  xy: 1500, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Sword
+  rotate: false
+  xy: 1828, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
