@@ -78,9 +78,7 @@
 		"uniques": [ 
 			"[+1 Happiness] <after discovering [Technomancy]>",
 			"[+1 Culture] <after discovering [Technomancy]>",
-			"[+1 Gold] from [Honey] tiles [in this city]",
 			"[+1 Gold] from [Wine] tiles [in this city]",
-			"New [Heroic] units start with [15] XP [in this city] <after discovering [Technomancy]>",
 			"Destroyed when the city is captured"
 			]
 	},
@@ -396,7 +394,7 @@
 		"cityHealth": 40,
 		"requiredTech": "Technomancy",
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>", 
 			"Destroyed when the city is captured"
 		]
