@@ -162,7 +162,10 @@
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [146, 222, 182],
 		"innerColor": [99, 16, 232],
-		"cities": ["Ider Bolis"]
+		"cities": ["Ider Bolis"],
+		"uniques": [
+			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
+		]
 	},
 	{
 		"name": "Alzakia",
@@ -174,7 +177,10 @@
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [147, 218, 230],
 		"innerColor": [0, 19, 186],
-		"cities": ["Rosengg"]
+		"cities": ["Rosengg"],
+		"uniques": [
+			"Starts with [Writing]"
+		]
 	},
 	{
 		"name": "Eaters of Wisdom",
@@ -186,7 +192,13 @@
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [184, 184, 184],
 		"innerColor": [99, 99, 99],
-		"cities": ["School of Thaumaturgy"]
+		"cities": ["School of Thaumaturgy"],
+		"uniques": [
+			"Starts with [Mining]",
+			"[{Land}] units gain the [Mountaineer] promotion",
+			"[+1 Food] from every [Strategic resource]",
+			"[+1 Gold] from every [Strategic resource]"
+		]
 	},
 	{
 		"name": "The Black Hand",

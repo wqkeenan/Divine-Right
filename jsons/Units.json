@@ -288,6 +288,18 @@
 	
 	/* Great people */
 
+		{
+		"name": "Great Druid",
+		"unitType": "Civilian",
+		"uniques": [
+			"[+1] population [in all cities] <by consuming this unit>",
+			"Can instantly construct a [Sacred Grove] improvement <by consuming this unit>",
+			"Great Person - [Food]",
+			"Uncapturable",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
 	{
 		"name": "Great Bard",
 		"unitType": "Civilian",
