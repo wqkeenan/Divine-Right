@@ -10,23 +10,33 @@
         ]
     },
     {
-        "name": "Veteran I",
+        "name": "Well Trained",
         "unitTypes": ["Sword","Archery","Mounted","Siege","Hero","Magical","Undead","Monster","Melee Water","Ranged Water","Sea Serpent"],
-        "row": 1,
+        "row": 2,
         "column": 0,
         "uniques": [
             "[+15]% Strength"
         ]
     },
     {
+        "name": "Veteran I",
+        "unitTypes": ["Sword","Archery","Mounted","Siege","Hero","Magical","Undead","Monster","Melee Water","Ranged Water","Sea Serpent"],
+        "row": 1,
+        "column": 0,
+        "uniques": [
+            "[+10]% Strength"
+        ]
+    },
+    {
         "name": "Veteran II",
-        "prerequisites": ["Veteran I"],
+        "prerequisites": ["Veteran I", "Well Trained"],
         "unitTypes": ["Sword","Archery","Mounted","Siege","Hero","Magical","Undead","Monster","Melee Water","Ranged Water","Sea Serpent"],
         "row": 1,
         "column": 1,
         "uniques": [
             "[+10]% Strength",
-            "Can move after attacking"
+            "Can move after attacking",
+            "Can be earned through combat"
         ]
     },
     {
@@ -36,22 +46,35 @@
         "row": 1,
         "column": 2,
         "uniques": [
-            "[+10]% Strength"
+            "[+10]% Strength",
+            "Can be earned through combat"
+        ]
+    },
+    {
+        "name": "Arboreal",
+        "unitTypes": ["Sword","Archery","Mounted","Hero","Magical"],
+        "row": 3,
+        "column": 0,
+        "uniques": [
+            "Double movement in [Forest]", 
+            "Double movement in [Jungle]"
         ]
     },
     {
         "name": "Pathfinder",
         "unitTypes": ["Sword","Archery","Mounted","Hero","Magical"],
-        "row": 2,
-        "column": 0,
+        "row": 3,
+        "column": 1,
         "uniques": [
-            "Ignores terrain cost"
+            "Double movement in [Hill]",
+            "Double movement in [Forest]", 
+            "Double movement in [Jungle]"
         ]
     },
     {
         "name": "Mountaineer",
         "unitTypes": ["Sword","Hero"],
-        "row": 2,
+        "row": 4,
         "column": 1,
         "uniques":[
             "Can pass through impassable tiles <in [Mountain] tiles>",
@@ -62,7 +85,7 @@
         "name": "Scouting",
         "prerequisites": ["Veteran I", "Pathfinder"],
         "unitTypes": ["Sword","Archery","Mounted","Hero"],
-        "row": 4,
+        "row": 5,
         "column": 1,
         "uniques": [
             "[+1] Sight"
@@ -72,7 +95,7 @@
         "name": "Swift",
         "prerequisites": ["Veteran I", "Pathfinder"],
         "unitTypes": ["Sword","Archery","Mounted","Hero","Magical"],
-        "row": 3,
+        "row": 6,
         "column": 1,
         "uniques": [
             "[+1] Movement"
@@ -81,7 +104,7 @@
     {
         "name":"Valiant",
         "unitTypes": ["Hero"],
-        "row": 6,
+        "row": 7,
         "column": 1,
         "uniques": [
             "No damage penalty for wounded units",
@@ -93,7 +116,7 @@
         "name":"Heroic",
         "prerequisites": ["Veteran II", "Valiant"],
         "unitTypes": ["Sword","Mounted","Hero"],
-        "row": 6,
+        "row": 7,
         "column": 4,
         "uniques": [
             "No damage penalty for wounded units",
@@ -106,9 +129,10 @@
         "name":"Battle Hardened",
         "prerequisites": ["Veteran II", "Heroic"],
         "unitTypes": ["Sword","Archery","Mounted","Hero","Magical"],
-        "row": 6,
+        "row": 7,
         "column": 5,
         "uniques": [
+            "[+10]% Strength",
             "Unit will heal every turn, even if it performs an action",
             "May heal outside of friendly territory",
             "Can be earned through combat"
@@ -118,7 +142,7 @@
         "name":"Swordmaster",
         "prerequisites": ["Veteran II", "Heroic"],
         "unitTypes": ["Hero"],
-        "row": 6,
+        "row": 7,
         "column": 6,
         "uniques": [
             "[1] additional attacks per turn",
@@ -140,7 +164,6 @@
     // Magical promotions 
 	{
 		"name": "Magic Wand",
-		"prerequisites": ["Veteran II"],
 		"unitTypes": ["Magical"],
     	"uniques": [
            "[+1] Range",
@@ -241,6 +264,13 @@
 
  // Special promotions   
 
+    {
+        "name": "Well Trained",
+        "unitTypes": ["Sword","Archery","Mounted","Siege","Hero","Magical","Undead","Monster","Melee Water","Ranged Water","Sea Serpent"],
+        "uniques": [
+            "[+15]% Strength"
+        ]
+    },
     {
         "name":"Mercenary",
         "uniques": [

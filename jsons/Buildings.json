@@ -157,6 +157,22 @@
 			]
 	},
 	{
+		"name": "The Captain",
+		"isNationalWonder": true,
+		"cost": 125,
+		"culture": 1,
+		"requiredTech": "Technomancy",
+		"uniques": [
+			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", 
+			"All newly-trained [Sword] units [in this city] receive the [Well Trained] promotion",
+			"All newly-trained [Mounted] units [in this city] receive the [Well Trained] promotion",
+			"All newly-trained [Sword] units [in this city] receive the [Well Trained] promotion",
+			"All newly-trained [Archery] units [in this city] receive the [Well Trained] promotion",
+			"All newly-trained [Monarch] units [in this city] receive the [Well Trained] promotion",
+			"Cost increases by [30] per owned city"
+		]
+	},
+	{
 		"name": "Sage",
 		"cost": 160,
 		"maintenance": 1,
@@ -208,7 +224,6 @@
 			"[+1 Food] from [Wheat] tiles [in this city]"
 			]
 	},
-
 	{
 		"name": "Market",
 		"hurryCostModifier": 25,
@@ -233,9 +248,10 @@
 		"isNationalWonder": true,
 		"cost": 200,
 		"science": 3,
-		"requiredTech": "Technomancy",
+		"requiredTech": "Engineering",
 		"requiredNearbyImprovedResources": ["Ancient Ruins"],
 		"requiredBuilding": "Library",
+		"specialistSlots": {"Sage": 1},
 		"greatPersonPoints": {"Great Sage": 2},
 		"uniques": [
 			"New [Magical] units start with [15] XP [in this city]", 
@@ -467,8 +483,8 @@
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Technomancy"
+		"requiredTech": "Technomancy",
+		"uniques": ["Destroyed when the city is captured"]
 	},	
 	{
 		"name": "Storm Wardens",

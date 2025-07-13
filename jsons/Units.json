@@ -11,7 +11,9 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": [
+			"Founds a new city <by consuming this unit>", 
+			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
@@ -35,7 +37,10 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"uniques": ["May upgrade to [Bowmen] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"May upgrade to [Bowmen] through ruins-like effects", 
+			"Never appears as a Barbarian unit"
+		],
 		"promotions": ["Pathfinder"],
 		"attackSound": "nonmetalhit"
 	},
@@ -113,10 +118,10 @@
 	},
 	{
 		"name": "Halberdiers",
+		"cost": 110,
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 21,
-		"cost": 120,
 		"requiredTech": "Technomancy",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -124,14 +129,14 @@
 	{
 		"name": "Swordsmen",
 		"unitType": "Sword",
+		"cost": 75,
+		"hurryCostModifier": 20,
 		"movement": 2,
 		"strength": 14,
-		"cost": 75,
 		"requiredTech": "Metalworking",
 		"upgradesTo": "Footmen",
 		"obsoleteTech": "Technomancy",
 		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -139,7 +144,6 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 20,
-		"cost": 110,
 		"requiredTech": "Technomancy",
 		"upgradesTo": "Legionaries",
 		"obsoleteTech": "Technomancy",
@@ -163,12 +167,12 @@
 	{
 		"name": "Men-at-Arms",
 		"unitType": "Sword",
+		"cost": 250,
+		"hurryCostModifier": 20,
 		"movement": 2,
 		"strength": 35,
-		"cost": 250,
 		"requiredTech": "Technomancy",
 		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
