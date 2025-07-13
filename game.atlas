@@ -1,0 +1,349 @@
+
+game.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Apothecary
+  rotate: false
+  xy: 744, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Palace
+  rotate: false
+  xy: 528, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Aether Well
+  rotate: false
+  xy: 420, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Circle
+  rotate: false
+  xy: 212, 26
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+CityStateIcons/Circle
+  rotate: false
+  xy: 212, 26
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+NationIcons/Circle
+  rotate: false
+  xy: 212, 26
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+OtherIcons/Circle
+  rotate: false
+  xy: 212, 26
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Circle
+  rotate: false
+  xy: 212, 26
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+PolicyIcons/Circle
+  rotate: false
+  xy: 212, 26
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ReligionIcons/Circle
+  rotate: false
+  xy: 212, 26
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ResourceIcons/Circle
+  rotate: false
+  xy: 212, 26
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+StatIcons/Circle
+  rotate: false
+  xy: 212, 26
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+UnitIcons/Circle
+  rotate: false
+  xy: 212, 26
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Ruins2
+  rotate: false
+  xy: 852, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Muetar
+  rotate: false
+  xy: 1716, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Neuth
+  rotate: false
+  xy: 1932, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Scimitars
+  rotate: false
+  xy: 1068, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Spear-and-Shield
+  rotate: false
+  xy: 1392, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The New Movement
+  rotate: false
+  xy: 212, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/axe-and-shield
+  rotate: false
+  xy: 506, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/bow-and-arrow
+  rotate: false
+  xy: 614, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/shield
+  rotate: false
+  xy: 722, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/shield-and-swords
+  rotate: false
+  xy: 830, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ancient Battlefield
+  rotate: false
+  xy: 528, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ancient-Ruins
+  rotate: false
+  xy: 636, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Sovereign
+  rotate: false
+  xy: 1284, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Brewing
+  rotate: false
+  xy: 960, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Mead
+  rotate: false
+  xy: 960, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Excavation
+  rotate: false
+  xy: 1068, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Hunting
+  rotate: false
+  xy: 1176, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Landholding
+  rotate: false
+  xy: 1284, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Metallurgy
+  rotate: false
+  xy: 1392, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Metalworking
+  rotate: false
+  xy: 1500, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Necromancy
+  rotate: false
+  xy: 1824, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Obelisk2
+  rotate: false
+  xy: 420, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Papyrus
+  rotate: false
+  xy: 636, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Papyrus2
+  rotate: false
+  xy: 744, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Runology
+  rotate: false
+  xy: 960, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Skull2
+  rotate: false
+  xy: 1176, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Tibal Law
+  rotate: false
+  xy: 1932, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Translation
+  rotate: false
+  xy: 398, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Archers
+  rotate: false
+  xy: 852, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Infantry
+  rotate: false
+  xy: 4, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Militia
+  rotate: false
+  xy: 1608, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Settler
+  rotate: false
+  xy: 4, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Spearmen
+  rotate: false
+  xy: 1500, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Swordsmen
+  rotate: false
+  xy: 1824, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Spell
+  rotate: false
+  xy: 1608, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Sword
+  rotate: false
+  xy: 1716, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
